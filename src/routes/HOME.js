@@ -48,7 +48,7 @@ const Home = () => {
           </div>
         </section>
 
-        {/* Video */}
+        {/* Video 
         <div className="flex justify-center items-center">
           <video
             className="rounded-lg"
@@ -63,7 +63,7 @@ const Home = () => {
           >
             <source src={HomeVideo} type="video/mp4" />
           </video>
-        </div>
+        </div>*/}
 
         {/* Tagline */}
         <section className="flex items-center my-10 justify-center  bg-white ">

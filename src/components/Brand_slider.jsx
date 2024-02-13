@@ -3,8 +3,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-import { logo1,logo2,logo3,logo4,logo5,logo6,logo7 } from '../assets/ClientLogos/clientlogodata';
-
+import { image1,image2,image3,image4,image5,image6,image7,image8,image9,image10,image11,image12,image13,image14,image15,image16,image17,image18,image19,image20,image21,image22,image23,image24,image25,image26,image27,image28,image29,image30,image31,image32,image33,image34,image35,image36,image37,image38,image39,image40,image41,image42,image43,image44,image45,image46,image47,image48,image49,image50,image51,image52,image53,image54,image55,image56,image57,image58,image59,image60,image61,image62,image63,image64,image65,image66,image67,image68,image69,image70 ,} from '../assets/Images/imagesslider'
 const BrandCarousel = () => {
   const settings = {
     autoplay: true,
@@ -18,14 +17,14 @@ const BrandCarousel = () => {
   };
 
   const brandImages = [
-    logo1,logo2,logo3,logo4,logo5,logo6,logo7,
+    image1,image2,image3,image4,image5,image6,image7,image8,image9,image10,image11,image12,image13,image14,image15,image16,image17,image18,image19,image20,image21,image22,image23,image24,image25,image26,image27,image28,image29,image30,image31,image32,image33,image34,image35,image36,image37,image38,image39,image40,image41,image42,image43,image44,image45,image46,image47,image48,image49,image50,image51,image52,image53,image54,image55,image56,image57,image58,image59,image60,image61,image62,image63,image64,image65,image66,image67,image68,image69,image70 ,
     
     // Add more image URLs here
   ];
 
   return (
     <div className="py-10 bg-gray-100">
-      <p className='text-center font-bold pb-5'>OUR CLIENTS</p>
+      <p className='text-center font-bold pb-5'>Mobels</p>
       <div className="container mx-auto ">
         <Slider {...settings}>
           {brandImages.map((imageUrl, index) => (
