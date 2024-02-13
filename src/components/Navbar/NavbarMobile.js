@@ -53,10 +53,7 @@ const HamburgerMenu = () => {
           
           <div className="flex flex-col mt-6">
           <Link to='/best-modeling-school-in-india'><a className="text-2xl my-2" onClick={closeMenu}>
-              Modeling School
-            </a></Link>
-            <Link to='/best-Finishing-school-in-india'><a className="text-2xl my-2" onClick={closeMenu}>
-              Finishing School
+              Gallery
             </a></Link>
           <Link to='/aboutus'><a className="text-2xl my-2" onClick={closeMenu}>
               About ilahe

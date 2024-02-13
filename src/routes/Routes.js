@@ -19,10 +19,6 @@ import ModelingBasicService from './Services/Modeling/ModelingBasicService.js'
 import ModelingEliteService from './Services/Modeling/ModelingEliteService.js' 
 import ModelingExpert from './Services/Modeling/ModelingExpert.js'
 
-import FinishingSchool from "./Services/FinishingSchool/FinishingSchool.jsx";
-import FinishingBasicService from './Services/FinishingSchool/FinishingBasicService.js'
-import FinishingEliteService from './Services/FinishingSchool/FinishingEliteService.js' 
-import FinishingExpert from './Services/FinishingSchool/FinishingExpert.js'
 
 
 
@@ -43,6 +39,5 @@ ReturnPolicy,
 
 /*Services */
 Modeling,ModelingBasicService,ModelingEliteService,ModelingExpert,
-FinishingSchool,FinishingBasicService,FinishingEliteService,FinishingExpert,
 
 };

@@ -24,7 +24,7 @@ const BrandCarousel = () => {
 
   return (
     <div className="py-10 bg-gray-100">
-      <p className='text-center font-bold pb-5'>Mobels</p>
+      <p className='text-center font-bold pb-5'>Our Gallery</p>
       <div className="container mx-auto ">
         <Slider {...settings}>
           {brandImages.map((imageUrl, index) => (

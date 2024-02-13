@@ -23,12 +23,10 @@ const Navbar = () => {
             <Menu as="div" className="relative inline-block text-left ">
             </Menu>
             <li className="p-4 text-sm hidden lg:block font-medium antialiased rounded-md  px-4 py-2   text-black hover:bg-yellow-500  focus:outline-none">
-              <Link to="/best-modeling-school-in-india">Modeling</Link>
+              <Link to="/best-modeling-school-in-india">Gallery</Link>
             </li>
 
-            <li className="p-4 text-sm hidden lg:block font-medium antialiased rounded-md  px-4 py-2   text-black hover:bg-yellow-500  focus:outline-none">
-              <Link to="/best-Finishing-school-in-india">Finishing School</Link>
-            </li>
+         
            
            
             <li className="p-4">
@@ -62,27 +60,12 @@ const Navbar = () => {
                                 "block px-4 py-2 text-sm"
                               )}
                             >
-                              Modeling
+                              Gallery
                             </a>
                           </Link>
                         )}
                       </Menu.Item>
-                      <Menu.Item>
-                        {({ active }) => (
-                          <Link to="/best-Finishing-school-in-india">
-                            <a
-                              className={classNames(
-                                active
-                                  ? "bg-yellow-500 text-white"
-                                  : "text-black",
-                                "block px-4 py-2 text-sm"
-                              )}
-                            >
-                              Finishing School
-                            </a>
-                          </Link>
-                        )}
-                      </Menu.Item>
+                     
                     </div>
 
                     <Menu.Item>
