@@ -22,7 +22,7 @@ const Navbar = () => {
           <ul className="flex items-center">
             <Menu as="div" className="relative inline-block text-left ">
             </Menu>
-            <li className="p-4 text-sm hidden lg:block font-medium antialiased rounded-md  px-4 py-2   text-black hover:bg-yellow-500  focus:outline-none">
+            <li className="p-4 text-sm hidden lg:block font-medium antialiased rounded-md  px-4 py-2   text-white hover:bg-yellow-500  focus:outline-none">
               <Link to="/best-portfolio-photoshoots-in-india">Gallery</Link>
             </li>
 

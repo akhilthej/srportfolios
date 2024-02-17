@@ -10,7 +10,7 @@ const Aboutus = () => {
   return (
     <main >
       <Helmet>
-            <title>About Us ilahe</title>
+            <title>About Us</title>
             <meta name="description" content='Discover the top modeling and finishing school to refine your skills, boost your confidence, and embark on a successful modeling career.'/>
             <link rel="canonical" href="/aboutus" />
       </Helmet>
@@ -33,7 +33,7 @@ const Aboutus = () => {
               {" "}
               {/* Align titles to the right on mobile, left on larger screens */}
               <h3 className="cursor-default  text-2xl pb-5 md:text-6xl fade-in-down font-extrabold text-center text-yellow-500 tracking-tight">
-                Know More About ilahe
+                Know More About SR Portfolios
               </h3>
               <p className="cursor-default text-yellow-600 sm:text-sm text-xs text-center sm:ml-0">
                 Get-in-Touch
@@ -73,7 +73,7 @@ const Aboutus = () => {
               I HAVE BEEN SO HAPPY YOU'RE HERE!
               </h2>
               <p className="text-sm font-medium text-black">
-              "To join our modeling and finishing school (ILAHE), visit my website for more info then fill out the contact form so I can send personalized details over! You can also follow me . on other social platforms, and read blog posts."
+              "To join our (SR Portfolios), visit my website for more info then fill out the contact form so I can send personalized details over! You can also follow me . on other social platforms, and read blog posts."
               </p>
             </section>
             </div>
@@ -125,17 +125,17 @@ const Aboutus = () => {
   <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
     <div className="mr-auto place-self-center lg:col-span-7">
     <h1 class="cursor-default pb-0 sm:pb-5 upanddown font-extrabold text-transparent text-4xl md:text-7xl lg:text-8xl bg-clip-text bg-gradient-to-r from-pink-500 to-orange-400 mt-3 leading-[3.5rem] tracking-tight">
-    JOURNEY TO ILAHE
+    JOURNEY TO SR Portfolios
               </h1>
       <p className="max-w-2xl mb-6 text-center">
       I wanted to blaze a path and show other girls/boys it can be done. To give them hope for a future and a life. It has been six years, six long years of weaving my way through the modeling field. I taught modeling and ramp choreography to more than 200+ students till now. I saw my own friends and other girls in my age group who wanted to connect and feel a sense of family, safety, to have a safe place to share things. One person I know committed suicide, due to parents opposition towards modelling. I have seen the lack of self-love and the various methods (drinks, drugs etc.) to cover this lack temporarily.</p>
     <br/>
     <p className="max-w-2xl mb-6 text-center">
-    Short cuts that can both cut short a life and certainly nothing that adds to their future. I wanted to instill confidence in women, to foster self-belief, self-respect, self-love. You cannot give what you don’t have so how can these girls/women give caring and love – if they don’t care or love themselves. I realized modeling and finishing school can help give girls confidence, after all – most women are judged by their looks but looks alone are not enough. I realized I can use modeling/finishing school to also teach other skills, life skills, self development skills along with grooming and etiquette skills. I could provide them a platform online/offline where they could get jobs for the skills developed. A platform that helps them sign proper agreements, a place of trust, transformation and self-growth for all women and thus was born ilahe. It Means Beautiful.</p>
+    Short cuts that can both cut short a life and certainly nothing that adds to their future. I wanted to instill confidence in women, to foster self-belief, self-respect, self-love. You cannot give what you don’t have so how can these girls/women give caring and love – if they don’t care or love themselves. I realized modeling and finishing school can help give girls confidence, after all – most women are judged by their looks but looks alone are not enough. I realized I can use modeling/finishing school to also teach other skills, life skills, self development skills along with grooming and etiquette skills. I could provide them a platform online/offline where they could get jobs for the skills developed. A platform that helps them sign proper agreements, a place of trust, transformation and self-growth for all women and thus was born SR Portfolios. It Means Beautiful.</p>
     </div>
     <div className="lg:mt-4 lg:col-span-5 lg:flex rounded-lg">
       <img
-        src={About3}
+        src={About2}
         alt="mockup"
         className="w-full h-auto rounded-lg"
       />
@@ -149,7 +149,7 @@ const Aboutus = () => {
   <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
     <div className="mr-auto place-self-center lg:col-span-7">
       <h1 className="cursor-default pb-0 sm:pb-5 upanddown font-extrabold text-transparent text-4xl sm:text-5xl md:text-6xl lg:text-7xl bg-clip-text bg-gradient-to-r from-pink-500 to-orange-400 mt-3 leading-[3.5rem] tracking-tight text-center">
-        ILAHE
+      SR Portfolios
       </h1>
     </div>
     <div className="lg:mt-4 lg:col-span-5 lg:flex rounded-lg">
@@ -171,7 +171,7 @@ const Aboutus = () => {
 
             <section className="text-center mx-auto mb-12 lg:px-20">
             <h1 class="cursor-default pb-0 sm:pb-5 upanddown font-extrabold text-transparent text-4xl md:text-7xl lg:text-8xl bg-clip-text bg-gradient-to-r from-pink-500 to-orange-400 mt-3 leading-[3.5rem] tracking-tight">
-            MY INTENT IS TO ALLOW ALL WOMEN TO FIND THEIR ILAHE WITHIN.
+            MY INTENT IS TO ALLOW ALL WOMEN TO FIND THEIR SR Portfolios WITHIN.
               </h1>
             </section>
             </div>

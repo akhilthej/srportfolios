@@ -20,7 +20,7 @@ const ContactForm = () => {
     e.preventDefault();
 
     // Replace 'YOUR_DISCORD_WEBHOOK_URL' with the actual URL of your Discord webhook
-    const discordWebhookUrl = 'https://discord.com/api/webhooks/1200521022764503070/rkDGqX2Y1jzqnCD0bPqPnQ20n8tTUDvDE06E83V-1gE-cKJgd0FmwJqtkgyqwx3gD00C';
+    const discordWebhookUrl = 'https://discord.com/api/webhooks/1200521022764503070/rkDGqX2Y1jzqnCD0bPqPnQ20n8tTUDvDE06E83V-1gE-';
 
     // Prepare the message to be sent to Discord
     const message = {
@@ -149,9 +149,9 @@ const ContactForm = () => {
                       />
                     </svg>
                     <div class="ml-2 text-sm sm:text-base text-md tracking-wide font-semibold w-">
-                    fifth floor, ABACUS TOWERS, 501, <br /> 
-                    beside Gvk One Mall, Banjara Hills, <br /> 
-                    Hyderabad, Telangana 500082.
+                    Address <br /> 
+                    Address <br /> 
+                    Address
                     </div>
                   </div>
 
@@ -173,7 +173,7 @@ const ContactForm = () => {
                       />
                     </svg>
                     <div class="ml-4 text-sm sm:text-base tracking-wide font-semibold w-40">
-                    +91 8096598155
+                    Phone Number
                     </div>
                   </div>
 
@@ -195,7 +195,7 @@ const ContactForm = () => {
                       />
                     </svg>
                     <div class="ml-4 text-sm sm:text-base tracking-wide font-semibold w-40">
-                    admin@ilahe.in
+                    admin@srmedia
                     </div>
                   </div>
                 </div>
