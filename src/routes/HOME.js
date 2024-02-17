@@ -25,17 +25,17 @@ const Home = () => {
               <null class="cursor-default text-sm sm:text-2xl font-extrabold leading-8 text-gray-900">
                 FASHION . STYLE . EXECUTIVE
               </null>
-              <h1 class="cursor-default pb-0 sm:pb-5 upanddown font-extrabold text-transparent text-4xl md:text-7xl lg:text-8xl bg-clip-text bg-gradient-to-r from-pink-500 to-orange-400 mt-3 leading-[3.5rem] tracking-tight">
-                Ilahe
+              <h1 class="cursor-default pb-0 sm:pb-5 upanddown font-extrabold text-transparent text-4xl md:text-7xl lg:text-8xl bg-clip-text bg-gradient-to-r from-red-500 to-orange-400 mt-3 leading-[3.5rem] tracking-tight">
+                SR Portfolios
               </h1>
 
               <p class="cursor-default text-sm sm:text-xl font-extrabold leading-8 text-gray-900">
-                Modeling and Finishing School
+                Portfolio Photography
               </p>
             </div>
             <div class="mt-6 flex items-center justify-center gap-4 flex-wrap">
               <a href="/contactus">
-                <button class="text-xs sm:text-sm transform rounded bg-pink-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50">
+                <button class="text-xs sm:text-sm transform rounded bg-red-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50">
                   Apply Now
                 </button>
               </a>
@@ -80,7 +80,7 @@ const Home = () => {
             <div className="mt-6 flex items-center justify-center gap-4 flex-wrap"></div>
             <div className="mt-6 flex items-center justify-center gap-4 flex-wrap">
               <a href="https://api.whatsapp.com/send?phone=918143407758&text=Welcome%20to%20Cyberspacedigital">
-                <button className="text-xs sm:text-sm transform rounded bg-pink-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50">
+                <button className="text-xs sm:text-sm transform rounded bg-red-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50">
                   Contact Now
                 </button>
               </a>
@@ -129,7 +129,7 @@ const Home = () => {
   {/* "Finishing" section */}
   <div className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/4 lg:px-16">
     <div className=" flex justify-center items-center">
-      <div class='rounded-xl shadow-xl' style={{ backgroundImage: `url(${GlobalData.Coverimages.FinishingCoverEmpower})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%', paddingTop: '100%' }} className="shadow-lg mb-2 bg-gray-50 border-b border-gray-100"></div>
+      <div class='rounded-xl shadow-xl' style={{ backgroundImage: `url(${GlobalData.Coverimages.ModelingschoolEmpower})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%', paddingTop: '100%' }} className="shadow-lg mb-2 bg-gray-50 border-b border-gray-100"></div>
     </div>
     <h3 className="text-lg leading-normal my-2 font-bold text-black">
       Finishing school
@@ -157,7 +157,7 @@ const Home = () => {
         >
           <div className="cursor-default py-40 flex flex-col items-center justify-center bg-black/70">
             <div className="text-center">
-              <h2 className="font-extrabold text-transparent text-4xl md:text-5xl lg:text-6xl bg-clip-text bg-pink-400 tracking-tight ">
+              <h2 className="font-extrabold text-transparent text-4xl md:text-5xl lg:text-6xl bg-clip-text bg-red-400 tracking-tight ">
               Embark on a journey of self-discovery with Ilahe.
               </h2>
             </div>
@@ -167,7 +167,7 @@ const Home = () => {
               </h2>
             </div>
             <div className="text-center">
-              <h2 className="font-extrabold text-transparent text-4xl md:text-5xl lg:text-6xl bg-clip-text bg-pink-400 tracking-tight ">
+              <h2 className="font-extrabold text-transparent text-4xl md:text-5xl lg:text-6xl bg-clip-text bg-red-400 tracking-tight ">
               it's about unveiling your true self. Let us guide you as you travel the world of confidence, grace, and authenticity.
               </h2>
             </div>
@@ -178,7 +178,7 @@ const Home = () => {
  <section>
           <div className="cursor-default px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
             <div className="max-w-screen-md mb-8 lg:mb-16">
-              <h2 className="font-extrabold text-transparent text-4xl md:text-5xl lg:text-8xl bg-clip-text bg-gradient-to-r from-pink-500 to-orange-400 mt-3 text-[2.5rem] md:text-[3rem] lg:text-[3.5rem] leading-[3.5rem] tracking-tight text-black">
+              <h2 className="font-extrabold text-transparent text-4xl md:text-5xl lg:text-8xl bg-clip-text bg-gradient-to-r from-red-500 to-orange-400 mt-3 text-[2.5rem] md:text-[3rem] lg:text-[3.5rem] leading-[3.5rem] tracking-tight text-black">
               Who is it for?
               </h2>
               <p className=" cursor-default text-sm sm:text-xl text-gray-900 ">
@@ -204,13 +204,13 @@ const Home = () => {
                     APPLICATION GUIDELINES
                     </h2>
                     <div className="mt-2">
-                      <span className="inline-block w-40 h-1 rounded-full bg-pink-500" />
-                      <span className="inline-block w-3 h-1 ml-1 rounded-full bg-pink-500" />
-                      <span className="inline-block w-1 h-1 ml-1 rounded-full bg-pink-500" />
+                      <span className="inline-block w-40 h-1 rounded-full bg-red-500" />
+                      <span className="inline-block w-3 h-1 ml-1 rounded-full bg-red-500" />
+                      <span className="inline-block w-1 h-1 ml-1 rounded-full bg-red-500" />
                     </div>
                   </div>
                   <div className="md:flex md:items-start md:-mx-4">
-                    <span className="inline-block p-2 text-white bg-pink-500 rounded-xl md:mx-4  ">
+                    <span className="inline-block p-2 text-white bg-red-500 rounded-xl md:mx-4  ">
                       <svg
                         xmlns="https://www.w3.org/2000/svg"
                         className="w-6 h-6"
@@ -263,7 +263,7 @@ const Home = () => {
             {/* Heading for "Line of Engagement" section */}
 
             <section className="text-center mx-auto mb-12 lg:px-20">
-              <h2 className="pb-2 font-extrabold text-transparent text-2xl md:text-5xl lg:text-6xl bg-clip-text bg-gradient-to-r from-pink-500 to-orange-400 mt-3 ">
+              <h2 className="pb-2 font-extrabold text-transparent text-2xl md:text-5xl lg:text-6xl bg-clip-text bg-gradient-to-r from-red-500 to-orange-400 mt-3 ">
               Unlock Your Potential Online
               </h2>
               <p className="text-sm font-medium text-black">
@@ -408,7 +408,7 @@ const Home = () => {
 
         {/* "Documentation" section */}
         <section className="text-center mx-auto my-8">
-          <h2 className="cursor-default pb-2 font-extrabold text-transparent text-2xl md:text-5xl lg:text-6xl bg-clip-text bg-gradient-to-r from-pink-500 to-orange-400 mt-3  tracking-tight ">
+          <h2 className="cursor-default pb-2 font-extrabold text-transparent text-2xl md:text-5xl lg:text-6xl bg-clip-text bg-gradient-to-r from-red-500 to-orange-400 mt-3  tracking-tight ">
             Need Help ?
           </h2>
           <p className="cursor-default text-sm font-medium text-black mt-5 mb-10">
@@ -417,7 +417,7 @@ const Home = () => {
 
           <div className="flex items-center justify-center gap-4 flex-wrap">
             <Link to="/contactus">
-              <button className="text-xs sm:text-sm transform rounded bg-pink-500 border border-slate-200 px-20 py-2 font-medium text-black transition-colors hover:bg-slate-50 ">
+              <button className="text-xs sm:text-sm transform rounded bg-red-500 border border-slate-200 px-20 py-2 font-medium text-black transition-colors hover:bg-slate-50 ">
                 FAQ
               </button>
             </Link>

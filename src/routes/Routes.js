@@ -14,10 +14,7 @@ import Home from './HOME.js';
 
 
 
-import Modeling from "./Services/Modeling/Modeling.jsx";
-import ModelingBasicService from './Services/Modeling/ModelingBasicService.js'
-import ModelingEliteService from './Services/Modeling/ModelingEliteService.js' 
-import ModelingExpert from './Services/Modeling/ModelingExpert.js'
+import Gallery_Portfolio from "./Services/Modeling/Gallery_Portfolio.jsx";
 
 
 
@@ -38,6 +35,6 @@ Aboutus,Contactus,
 ReturnPolicy,
 
 /*Services */
-Modeling,ModelingBasicService,ModelingEliteService,ModelingExpert,
+Gallery_Portfolio,
 
 };

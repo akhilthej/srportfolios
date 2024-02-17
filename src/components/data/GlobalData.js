@@ -1,4 +1,3 @@
-import FinishingCoverEmpower from '../../assets/CoverImages/finishingschoolserviceimage.jpeg';
 import ModelingschoolEmpower from '../../assets/CoverImages/modelingschoolserviceimage.jpeg'
 import Application from '../../assets/CoverImages/application.jpeg'
 import embark from '../../assets/CoverImages/embark.jpg'
@@ -23,8 +22,6 @@ const GlobalData = {
        
         BlogCover:BlogCover,
         
-
-        FinishingCoverEmpower: FinishingCoverEmpower,
         ModelingschoolEmpower:ModelingschoolEmpower,
         Application:Application,
         embark:embark,

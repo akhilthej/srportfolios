@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import Subscribe from '../../assets/Icons/Subscribe.png'
 
 import {googlereview} from '../data/data.jsx';
-import footer_csd from './csdv2Logofooter.svg';
+import footer_csd from '../Navbar/Navlogo.png';
 import WhatsApp from './WhatsApp.webp';
 import { GlobalData } from '../data/GlobalData.js';
 
@@ -13,45 +13,6 @@ const Footer = () => {
     
     <main className='bg-black'>
 
-      {/*Subscription section*/}
-      <section>
-  <div className="flex flex-col items-center justify-center md:flex-row">
-    <div className="md:w-1/2 px-5 py-10">
-      <div className="grid gap-5 md:grid-cols-2 md:gap-10 lg:gap-20">
-        <div className="flex justify-center md:justify-end">
-          <img
-            className="mx-auto sm:flex"
-            src={Subscribe}
-            alt="Marketing newsletter via computer Illustration in PNG, SVG"
-          />
-        </div>
-        <div className="flex items-center">
-          <div className="mx-auto md:mx-0">
-            <h3 className="text-4xl font-bold text-white">Subscribe</h3>
-            <p className="mt-2 max-w-[20rem] text-lg text-white">
-              Join our weekly digest. You'll also receive some of our best posts today.
-            </p>
-            <form action="" className="mt-4 flex flex-col">
-              <input
-                type="email"
-                name="email"
-                id="email"
-                placeholder="Enter your email"
-                className="w-full rounded border border-white/50 bg-transparent px-3 py-2 text-white placeholder:black-black/50 md:max-w-[18rem]"
-              />
-              <button
-                type="submit"
-                className="mt-4 w-full max-w-[14rem] rounded bg-yellow-500 hover:bg-white px-14 py-2 text-center text-black"
-              >
-                Subscribe
-              </button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
 
 
@@ -229,7 +190,7 @@ const Footer = () => {
     <a href={GlobalData.company.companyGoogleMaps}> <img  class="h-10 hover:animate-pulse  max-w-full ml-auto mr-auto mt-5" src= {googlereview} alt="googlereview_icon" /></a>
  
     <div class="h-px my-8 border-0 bg-gray-700"/>
-   <p id="copyright" class="cursor-default text-center text-xs text-white">© 2022-<span id="currentYear">2023</span> ilahe.in</p><br/>
+   <p id="copyright" class="cursor-default text-center text-xs text-white">© 2023-<span id="currentYear">2024</span> Reserved to SR Portfolios</p><br/>
    <a href="https://cyberspacedigital.in/"> <img  class="h-10 hover:animate-pulse  max-w-full ml-auto mr-auto mt-2" src= "https://cyberspacedigital.in/static/media/csdv2Logofooter.fd1b0a495973bc9e3a9d8b4c42fed61b.svg" alt="Cyberspacedigital.in" /></a>
    <p class="cursor-default text-center text-xs text-white">Web Development & Designer Community ( #CSD )</p>
  </div>

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import NavbarLogo from "./csdv2Logonavbar.svg";
+import NavbarLogo from "./Navlogo.png";
 import { Link } from "react-router-dom";
 
 const HamburgerMenu = () => {
@@ -27,21 +27,21 @@ const HamburgerMenu = () => {
   }, [isOpen]);
 
   return (
-    <div className="z-10 sticky top-0 bg-white px-5 sm:hidden">
+    <div className="z-10 sticky top-0 bg-black px-5 sm:hidden">
       <div className="flex items-center py-2">
       <Link to='/'><img
-          className="h-auto w-24"
+          className="h-auto w-24 "
           src={NavbarLogo}
           alt="csd_logo"
         /></Link>
-        <button className="text-3xl  ml-auto" onClick={toggleMenu}>
+        <button className="text-3xl  text-white ml-auto" onClick={toggleMenu}>
           ☰
         </button>
       </div>
       {isOpen && (
         <div className="fixed top-0 left-0 w-full h-full bg-white text-black p-4 flex flex-col justify-center items-center">
           <button
-            className="text-2xl absolute top-2 right-2"
+            className="text-2xl absolute top-2  right-2"
             onClick={closeMenu}
           >
             ✕
@@ -52,7 +52,7 @@ const HamburgerMenu = () => {
             alt="csd_logo"/></Link>
           
           <div className="flex flex-col mt-6">
-          <Link to='/best-modeling-school-in-india'><a className="text-2xl my-2" onClick={closeMenu}>
+          <Link to='/best-portfolio-photoshoots-in-india'><a className="text-2xl my-2" onClick={closeMenu}>
               Gallery
             </a></Link>
           <Link to='/aboutus'><a className="text-2xl my-2" onClick={closeMenu}>

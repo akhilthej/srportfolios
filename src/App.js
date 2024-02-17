@@ -2,8 +2,7 @@ import React from "react";
 import { Routes, Route, useLocation } from 'react-router-dom';
 import ReactGA from 'react-ga4'
 import { Navbar, Footer, PrivacyPolicy, TermsnConditions, Disclaimer, ShippingandDelivery, ReturnPolicy, Error404, Home, Aboutus, Contactus,
-  Modeling, ModelingBasicService, ModelingEliteService, ModelingExpert,
-  FinishingSchool, FinishingBasicService, FinishingEliteService, FinishingExpert, 
+  Gallery_Portfolio,
 
 } from './routes/Routes';
 import NavbarMobile from './components/Navbar/NavbarMobile';
@@ -12,7 +11,7 @@ const routes = [
   { path: '/', element: <Home /> },
   { path: '/*', element: <Error404 /> },
   
-  { path: '/best-modeling-school-in-india', element: <Modeling /> },
+  { path: '/best-portfolio-photoshoots-in-india', element: <Gallery_Portfolio /> },
 
   { path: '/aboutus', element: <Aboutus /> },
   { path: '/contactus', element: <Contactus /> },
@@ -23,8 +22,6 @@ const routes = [
   { path: '/disclaimer', element: <Disclaimer /> },
   
 ];
-
-ReactGA.initialize('G-8QD5KXH3VB'); // Replace with your Tracking ID
 
 export function App() {
   const location = useLocation();

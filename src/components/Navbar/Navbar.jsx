@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
 import { Menu, Transition } from "@headlessui/react";
 
-import NavbarLogo from "./csdv2Logonavbar.svg";
+import NavbarLogo from "./Navlogo.png";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -10,7 +10,7 @@ function classNames(...classes) {
 
 const Navbar = () => {
   return (
-    <section class=" sticky top-0 z-50 bg-white/90 drop-shadow-lg hidden sm:block ">
+    <section class=" sticky top-0 z-50 bg-black/90 drop-shadow-lg hidden sm:block ">
       <div className=" sm:px-2 w-full h-17 flex justify-between items-center text-black ">
         <Link to="/">
           <img
@@ -23,7 +23,7 @@ const Navbar = () => {
             <Menu as="div" className="relative inline-block text-left ">
             </Menu>
             <li className="p-4 text-sm hidden lg:block font-medium antialiased rounded-md  px-4 py-2   text-black hover:bg-yellow-500  focus:outline-none">
-              <Link to="/best-modeling-school-in-india">Gallery</Link>
+              <Link to="/best-portfolio-photoshoots-in-india">Gallery</Link>
             </li>
 
          
@@ -32,7 +32,7 @@ const Navbar = () => {
             <li className="p-4">
               <Menu as="div" className="relative inline-block text-left  ">
                 <div>
-                  <Menu.Button className=" text-3xl">
+                  <Menu.Button className=" text-3xl text-white">
                   ☰
                   
                   </Menu.Button>
@@ -51,7 +51,7 @@ const Navbar = () => {
                     <div className="py-1  lg:hidden ">
                       <Menu.Item>
                         {({ active }) => (
-                          <Link to="/best-modeling-school-in-india">
+                          <Link to="/best-portfolio-photoshoots-in-india">
                             <a
                               className={classNames(
                                 active
