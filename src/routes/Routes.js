@@ -12,12 +12,7 @@ import Error404 from '../components/Tools/Error404.jsx';
 
 import Home from './HOME.js';
 
-
-
-import Gallery_Portfolio from "./Services/Modeling/Gallery_Portfolio.jsx";
-
-
-
+import Gallery_Portfolio from "./CustomPages/Gallery_Portfolio.jsx";
 
 import Aboutus from './Aboutus.js';
 import Contactus from './Contactus.js';

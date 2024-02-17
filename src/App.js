@@ -1,10 +1,9 @@
 import React from "react";
 import { Routes, Route, useLocation } from 'react-router-dom';
-import ReactGA from 'react-ga4'
 import { Navbar, Footer, PrivacyPolicy, TermsnConditions, Disclaimer, ShippingandDelivery, ReturnPolicy, Error404, Home, Aboutus, Contactus,
   Gallery_Portfolio,
-
 } from './routes/Routes';
+
 import NavbarMobile from './components/Navbar/NavbarMobile';
 
 const routes = [
