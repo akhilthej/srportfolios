@@ -56,7 +56,7 @@ const HamburgerMenu = () => {
               Gallery
             </a></Link>
           <Link to='/aboutus'><a className="text-2xl my-2" onClick={closeMenu}>
-              About ilahe
+              About us
             </a></Link>
             <Link to='/contactus'><a className="text-2xl my-2" onClick={closeMenu}>
               Contact Us
