@@ -2,9 +2,6 @@ import React from 'react';
 import { Helmet } from 'react-helmet-async';
 
 import { GlobalData } from '../components/data/GlobalData';
-import AboutSubcover from '../assets/CoverImages/AboutSubcover1.jpg'
-import About2 from '../assets/CoverImages/About2.png'
-import About3 from '../assets/CoverImages/About3.webp'
 
 const Aboutus = () => {
   return (
@@ -39,13 +36,13 @@ const Aboutus = () => {
                 Get-in-Touch
               </p>
               <div className="mt-8 flex flex-wrap justify-center gap-4">
-              <a href="mailto:admin@ilahe.in">
+              <a href="mailto:{GlobalData.company.companyEmail}">
                   <a className="transform rounded-md bg-white px-5 py-3 font-medium text-black transition-colors hover:bg-black hover:text-white">
                     Email
                   </a>
                 </a>
               
-                <a href="https://api.whatsapp.com/send?phone=+918096598155&text=Hi,%20i%20am%20looking%20some%20information.">
+                <a href={GlobalData.company.companyWhatsapp}>
                   <a className="transform rounded-md bg-white px-5 py-3 font-medium text-black transition-colors hover:bg-black hover:text-white">
                     WhatsApp
                   </a>
@@ -83,7 +80,7 @@ const Aboutus = () => {
        {/* WE BUILD */}
        <section
           style={{
-            backgroundImage:`url(${AboutSubcover})`,
+            backgroundImage:`url(${GlobalData.Coverimages.Aboutus1})`,
             backgroundSize: "cover",
             backgroundPosition: "top",
           }}>
@@ -112,7 +109,7 @@ const Aboutus = () => {
     </div>
     <div className="lg:mt-4 lg:col-span-5 lg:flex rounded-lg">
       <img
-        src={About2}
+        src={GlobalData.Coverimages.Aboutus1}
         alt="mockup"
         className="w-full h-auto rounded-lg"
       />
@@ -135,7 +132,7 @@ const Aboutus = () => {
     </div>
     <div className="lg:mt-4 lg:col-span-5 lg:flex rounded-lg">
       <img
-        src={About2}
+        src={GlobalData.Coverimages.Aboutus1}
         alt="mockup"
         className="w-full h-auto rounded-lg"
       />

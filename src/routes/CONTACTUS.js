@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Helmet } from "react-helmet-async";
-import Contactcover from '../assets/CoverImages/Contact_us.png'
+import { GlobalData } from "../components/data/GlobalData";
 
 const ContactForm = () => {
  
@@ -20,7 +20,7 @@ const ContactForm = () => {
     e.preventDefault();
 
     // Replace 'YOUR_DISCORD_WEBHOOK_URL' with the actual URL of your Discord webhook
-    const discordWebhookUrl = 'https://discord.com/api/webhooks/1200521022764503070/rkDGqX2Y1jzqnCD0bPqPnQ20n8tTUDvDE06E83V-1gE-';
+    const discordWebhookUrl = 'https://discord.com/api/webhooks/1208458133379223622/ahxQGQCSjj_M8au79gtXzHg81yNzSU42ZfuVbmylAtNqX7sLd3uYPG2cfm8yizcsov6t';
 
     // Prepare the message to be sent to Discord
     const message = {
@@ -56,7 +56,7 @@ const ContactForm = () => {
         <title>Contact us</title>
         <meta
           name="description"
-          content="Web Development and Digital Marketing Company. We are here to build you business online. One stop for all your digital needs."
+          content="If your looking for best portfolio photo shoot in hyderabad contact us"
         />
         <link rel="canonical" href="/contactus" />
       </Helmet>
@@ -65,7 +65,7 @@ const ContactForm = () => {
      <section
         className="py-10 sm:py-40"
         style={{
-          backgroundImage:`url("${Contactcover}")`,
+          backgroundImage:`url("${GlobalData.Coverimages.ContactusCover}")`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -76,28 +76,28 @@ const ContactForm = () => {
             <div className="text-right md:text-left">
               {" "}
               {/* Align titles to the right on mobile, left on larger screens */}
-              <h3 className="cursor-default  text-2xl pb-5 md:text-6xl fade-in-down font-extrabold text-center text-white tracking-tight">
+              <h3 className="cursor-default  text-2xl pb-5 md:text-6xl fade-in-down font-extrabold text-center text-black tracking-tight">
                 Get in touch,
                 <br />
                 we’d love to hear from you.
               </h3>
-              <p className="cursor-default text-white sm:text-sm text-xs text-center sm:ml-0">
+              <p className="cursor-default text-black sm:text-sm text-xs text-center sm:ml-0">
                 You can contact us through mail or you can get in touch at our
                 digital office.
               </p>
               <div className="mt-8 flex flex-wrap justify-center gap-4">
-              <a href="mailto:admin@cyberspacedigital.in">
+              <a href="mailto:{GlobalData.company.companyEmail}">
                   <a className="transform rounded-md bg-white px-5 py-3 font-medium text-black transition-colors hover:bg-black hover:text-white">
                     Email
                   </a>
                 </a>
-                <a href="tel:+91-814-340-7758">
+                <a href="tel:{GlobalData.company.companyPrimaryPhone}">
                   <a className="transform rounded-md bg-white px-5 py-3 font-medium text-black transition-colors hover:bg-black hover:text-white">
                     Phone
                   </a>
                 </a>
               
-                <a href="https://api.whatsapp.com/send?phone=918143407758&text=Welcome%20to%20Cyberspacedigital">
+                <a href={GlobalData.company.companyWhatsapp}>
                   <a className="transform rounded-md bg-white px-5 py-3 font-medium text-black transition-colors hover:bg-black hover:text-white">
                     WhatsApp
                   </a>
@@ -149,9 +149,7 @@ const ContactForm = () => {
                       />
                     </svg>
                     <div class="ml-2 text-sm sm:text-base text-md tracking-wide font-semibold w-">
-                    Address <br /> 
-                    Address <br /> 
-                    Address
+                   {GlobalData.company.companyAddress}
                     </div>
                   </div>
 
@@ -173,8 +171,11 @@ const ContactForm = () => {
                       />
                     </svg>
                     <div class="ml-4 text-sm sm:text-base tracking-wide font-semibold w-40">
-                    Phone Number
-                    </div>
+  {GlobalData.company.companyPhone.split(',').map((phoneNumber, index) => (
+    <div key={index}>{phoneNumber.trim()}</div>
+  ))}
+</div>
+
                   </div>
 
                   <div class="flex items-center mt-4 text-black">

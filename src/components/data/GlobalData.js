@@ -2,31 +2,29 @@ import ModelingschoolEmpower from '../../assets/CoverImages/modelingschoolservic
 import Application from '../../assets/CoverImages/application.jpeg'
 import embark from '../../assets/CoverImages/embark.jpg'
 
+import ContactusCover from '../../assets/CoverImages/Contact_us.webp'
 import ModelingSchool from '../../assets/CoverImages/modelingschool.png'
-import FinishingSchool1 from '../../assets/CoverImages/finishingschool.png'
 import Aboutus1 from '../../assets/CoverImages/aboutus.png'
 import MoreDetails from '../../assets/CoverImages/moredetails.png'
 
-import BlogCover from '../../assets/CoverImages/blog.webp'
 
 const GlobalData = {
     company: {
-      companyName: 'ilahe',
-      companyPhone: '+918096598155',
-      companyEmail: 'admin@ilahe.in',
-      companyAddress: 'fifth floor, ABACUS TOWERS, 501, beside Gvk One Mall, Banjara Hills, Hyderabad, Telangana 500082',
-      companyWhatsapp: 'https://api.whatsapp.com/send?phone=+918096598155',
+      companyName: 'SR Media',
+      companyPrimaryPhone: '9885566589',
+      companyPhone: '9885566589,9063134888,9492555777,9703442999',
+      companyEmail: 'mail@srmedia.in',
+      companyAddress: 'Dono: 8-2-269 /B/8D, Road No:2,Venkateswara nagar Aurora colony,Banjarahills, Hyderabad,Telangana - 500034',
+      companyWhatsapp: 'https://wa.me/+919885566589',
       companyGoogleMaps:'https://g.page/r/Cbdbq2SKZJyVEAI/review',
     },
     Coverimages: {
-       
-        BlogCover:BlogCover,
-        
+       ContactusCover:ContactusCover,
+
         ModelingschoolEmpower:ModelingschoolEmpower,
         Application:Application,
         embark:embark,
         ModelingSchool: ModelingSchool,
-        FinishingSchool1: FinishingSchool1,
         Aboutus1: Aboutus1,
         MoreDetails: MoreDetails,
 

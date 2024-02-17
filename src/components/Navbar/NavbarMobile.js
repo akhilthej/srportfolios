@@ -39,7 +39,7 @@ const HamburgerMenu = () => {
         </button>
       </div>
       {isOpen && (
-        <div className="fixed top-0 left-0 w-full h-full bg-white text-black p-4 flex flex-col justify-center items-center">
+        <div className="fixed top-0 left-0 w-full h-full bg-black text-black p-4 flex flex-col justify-center items-center">
           <button
             className="text-2xl absolute top-2  right-2"
             onClick={closeMenu}
@@ -51,7 +51,7 @@ const HamburgerMenu = () => {
             src={NavbarLogo}
             alt="csd_logo"/></Link>
           
-          <div className="flex flex-col mt-6">
+          <div className="flex flex-col mt-6 text-white text-center">
           <Link to='/best-portfolio-photoshoots-in-india'><a className="text-2xl my-2" onClick={closeMenu}>
               Gallery
             </a></Link>

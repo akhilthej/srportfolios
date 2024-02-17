@@ -100,10 +100,10 @@ const Home = () => {
     <section className="text-center mx-auto mb-12 lg:px-20">
 
     <p className="text-xl font-medium text-black">
-    Explore SR Portfolios Modeling and Finishing School's Digital Home.
+    Explore SR Portfolios
       </p>
       <h2 className="pb-2 font-extrabold text-white text-2xl md:text-5xl lg:text-6xl  mt-3  ">
-      PORTFOLIO SHOOT PACKAGES  
+      PORTFOLIO SHOOT PACKAGES IN HYDERABAD  
       </h2>
       <p className="text-sm font-medium text-black">
       "We make it easy for you! SR Portfolios offers user-friendly websites designed just for you. Whether you're a budding model or looking to refine your skills, our online platform is your go-to destination. Showcase your talent effortlessly and step confidently into the world of modeling and finishing. Your journey begins here, online, with SR Portfolios."
@@ -115,8 +115,8 @@ const Home = () => {
     <div className="flex justify-center items-center">
       <div class='rounded-xl shadow-xl' style={{ backgroundImage: `url(${GlobalData.Coverimages.ModelingschoolEmpower})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%', paddingTop: '100%' }} className="shadow-lg mb-2 bg-gray-50 border-b border-gray-100"></div>
     </div>
-    <h3 className="text-lg leading-normal my-2 font-bold text-black">
-    PORTFOLIO SHOOT PACKAGES IN HYDERABAD CLASSIC
+    <h3 className="mt-2 text-xs sm:text-sm transform rounded border border-slate-200 px-12 py-2 font-medium bg-white text-black ">
+    CLASSIC PACK
     </h3>
     <p className="font-semibold text-sm text-white bg-orange-600 p-5 drop-shadow-lg rounded-lg">
     
@@ -128,7 +128,7 @@ ALL RAW PHOTOS<br/>
 MAKEUP AND HAIRSTYLE<br/>
 INDOOR SHOOT<br/>
     </p>
-    <Link to='/best-modeling-school-in-india'>
+    <Link to='/contactus'>
       <button className="mt-2 text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-white hover:text-black transition-colors hover:bg-slate-50 mb-10">Apply Now</button>
     </Link>
   </div>
@@ -138,8 +138,8 @@ INDOOR SHOOT<br/>
     <div className=" flex justify-center items-center">
       <div class='rounded-xl shadow-xl' style={{ backgroundImage: `url(${GlobalData.Coverimages.ModelingschoolEmpower})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%', paddingTop: '100%' }} className="shadow-lg mb-2 bg-gray-50 border-b border-gray-100"></div>
     </div>
-    <h3 className="text-lg leading-normal my-2 font-bold text-black">
-    PORTFOLIO SHOOT PACKAGES IN HYDERABAD PREMIUM
+    <h3 className="mt-2 text-xs sm:text-sm transform rounded border border-slate-200 px-12 py-2 font-medium bg-white text-black ">
+    PREMIUM PACK
     </h3>
     <p className="font-semibold text-sm text-white bg-yellow-500 p-5 drop-shadow-lg rounded-lg">
     
@@ -159,7 +159,7 @@ INDOOR SHOOT<br/>
 
 1 CINEMATIC REEL
     </p>
-    <Link to='/best-Finishing-school-in-india'>
+    <Link to='/contactus'>
       <button className="mt-2 text-xs sm:text-sm transform rounded bg-orange-600 border border-slate-200 px-12 py-2 font-medium text-white hover:text-black transition-colors hover:bg-slate-50 mb-10">Apply Now</button>
     </Link>
   </div>

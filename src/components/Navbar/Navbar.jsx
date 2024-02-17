@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className=" sm:px-2 w-full h-17 flex justify-between items-center text-black ">
         <Link to="/">
           <img
-            class="p-2 h-auto w-24  lg:w-32"
+            class="p-5 h-auto w-24  lg:w-32"
             src={NavbarLogo}
             alt="csd_logo"/>
         </Link>

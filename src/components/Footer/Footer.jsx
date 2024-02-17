@@ -1,6 +1,5 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import Subscribe from '../../assets/Icons/Subscribe.png'
 
 import {googlereview} from '../data/data.jsx';
 import footer_csd from '../Navbar/Navlogo.png';

@@ -20,7 +20,7 @@ import Gallery_Portfolio from "./Services/Modeling/Gallery_Portfolio.jsx";
 
 
 import Aboutus from './Aboutus.js';
-import Contactus from './CONTACTUS.js';
+import Contactus from './Contactus.js';
 
 
 
