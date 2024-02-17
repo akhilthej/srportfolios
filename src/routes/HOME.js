@@ -100,13 +100,13 @@ const Home = () => {
     <section className="text-center mx-auto mb-12 lg:px-20">
 
     <p className="text-xl font-medium text-black">
-    Explore ilahe Modeling and Finishing School's Digital Home.
+    Explore SR Portfolios Modeling and Finishing School's Digital Home.
       </p>
       <h2 className="pb-2 font-extrabold text-white text-2xl md:text-5xl lg:text-6xl  mt-3  ">
-      Empowering Your Journey, One Click at a Time.  
+      PORTFOLIO SHOOT PACKAGES  
       </h2>
       <p className="text-sm font-medium text-black">
-      "We make it easy for you! Ilahe offers user-friendly websites designed just for you. Whether you're a budding model or looking to refine your skills, our online platform is your go-to destination. Showcase your talent effortlessly and step confidently into the world of modeling and finishing. Your journey begins here, online, with Ilahe."
+      "We make it easy for you! SR Portfolios offers user-friendly websites designed just for you. Whether you're a budding model or looking to refine your skills, our online platform is your go-to destination. Showcase your talent effortlessly and step confidently into the world of modeling and finishing. Your journey begins here, online, with SR Portfolios."
       </p>
     </section>
 {/* "Modeling" section */}
@@ -116,10 +116,17 @@ const Home = () => {
       <div class='rounded-xl shadow-xl' style={{ backgroundImage: `url(${GlobalData.Coverimages.ModelingschoolEmpower})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%', paddingTop: '100%' }} className="shadow-lg mb-2 bg-gray-50 border-b border-gray-100"></div>
     </div>
     <h3 className="text-lg leading-normal my-2 font-bold text-black">
-      Modeling school
+    PORTFOLIO SHOOT PACKAGES IN HYDERABAD CLASSIC
     </h3>
     <p className="font-semibold text-sm text-white bg-orange-600 p-5 drop-shadow-lg rounded-lg">
-      Elevate Your Modeling School’s Presence: Our tailored website solutions are crafted to amplify your brand, increase visibility, and attract more opportunities in the modeling industry. Get a quote today and step confidently into the digital spotlight!
+    
+PRICE - 12500/-<br/>
+3 HOUR SHOOT<br/>
+4 CHANGES OUTFITS<br/>
+20 EDITED PHOTOS<br/>
+ALL RAW PHOTOS<br/>
+MAKEUP AND HAIRSTYLE<br/>
+INDOOR SHOOT<br/>
     </p>
     <Link to='/best-modeling-school-in-india'>
       <button className="mt-2 text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-white hover:text-black transition-colors hover:bg-slate-50 mb-10">Apply Now</button>
@@ -132,10 +139,25 @@ const Home = () => {
       <div class='rounded-xl shadow-xl' style={{ backgroundImage: `url(${GlobalData.Coverimages.ModelingschoolEmpower})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%', paddingTop: '100%' }} className="shadow-lg mb-2 bg-gray-50 border-b border-gray-100"></div>
     </div>
     <h3 className="text-lg leading-normal my-2 font-bold text-black">
-      Finishing school
+    PORTFOLIO SHOOT PACKAGES IN HYDERABAD PREMIUM
     </h3>
     <p className="font-semibold text-sm text-white bg-yellow-500 p-5 drop-shadow-lg rounded-lg">
-      Polish Your Presence Online:Our tailored websites add atouch of class to your finishing school! Boost elegance, increase visibility, & charm a refined audience. Get aquote now and let your finishing school shine online with grace and style!
+    
+PRICE - 15000<br/>
+
+4 HOUR SHOOT<br/>
+
+5CHANGES OUTFITS<br/>
+
+25 EDITED PHOTOS<br/>
+
+ALL RAW PHOTOS<br/>
+
+MAKEUP AND HAIRSTYLE <br/>
+
+INDOOR SHOOT<br/>
+
+1 CINEMATIC REEL
     </p>
     <Link to='/best-Finishing-school-in-india'>
       <button className="mt-2 text-xs sm:text-sm transform rounded bg-orange-600 border border-slate-200 px-12 py-2 font-medium text-white hover:text-black transition-colors hover:bg-slate-50 mb-10">Apply Now</button>
@@ -158,7 +180,7 @@ const Home = () => {
           <div className="cursor-default py-40 flex flex-col items-center justify-center bg-black/70">
             <div className="text-center">
               <h2 className="font-extrabold text-transparent text-4xl md:text-5xl lg:text-6xl bg-clip-text bg-red-400 tracking-tight ">
-              Embark on a journey of self-discovery with Ilahe.
+              Embark on a journey of self-discovery with SR Portfolios.
               </h2>
             </div>
             <div className="text-center">
@@ -236,7 +258,7 @@ const Home = () => {
               <li>Photographs must be in color and in focus.</li>
               <li>Please try to upload at least one full length and one close up picture.</li>
               <p className="text-sm pt-5">Once you have made your application, we will do our best to get back to you within five working days. If you have not heard back from us, please call us and quote your full name and email address.</p>
-              <p className="text-sm">While your waiting to hear back,keep up to date with ILAHE by following us on social media.</p>
+              <p className="text-sm">While your waiting to hear back,keep up to date with SR Portfolios by following us on social media.</p>
                       </h2>
                     </div>
                   </div>
@@ -267,7 +289,7 @@ const Home = () => {
               Unlock Your Potential Online
               </h2>
               <p className="text-sm font-medium text-black">
-              Navigating the digital world is vital for modeling and finishing school, and Ilahe understands this. Our website development services ensure your online presence is not only visually appealing but also strategically optimized. Here's how joining Ilahe Modeling and Finishing School benefits you:
+              Navigating the digital world is vital for modeling and finishing school, and SR Portfolios understands this. Our website development services ensure your online presence is not only visually appealing but also strategically optimized. Here's how joining SR Portfolios Modeling and Finishing School benefits you:
 
               </p>
             </section>
@@ -298,7 +320,7 @@ const Home = () => {
                   Personalized Growth
                   </h3>
                   <p className="text-gray-500 text-sm">
-                  At Ilahe, we tailor our training to your unique strengths, helping you refine your skills, boost your confidence, and carve your path in the modeling industry. Our personalized approach ensures you develop as an individual, both personally and professionally.
+                  At SR Portfolios, we tailor our training to your unique strengths, helping you refine your skills, boost your confidence, and carve your path in the modeling industry. Our personalized approach ensures you develop as an individual, both personally and professionally.
 
                   </p>
                 </div>
@@ -331,7 +353,7 @@ const Home = () => {
                   Industry-Relevant Training
                   </h3>
                   <p className="text-gray-500 text-sm">
-                  Ilahe provides hands-on experience and industry insights, preparing you for the demands of the modeling and finishing world. Our expert trainers impart knowledge that aligns with current trends and industry expectations, giving you a competitive edge.
+                  SR Portfolios provides hands-on experience and industry insights, preparing you for the demands of the modeling and finishing world. Our expert trainers impart knowledge that aligns with current trends and industry expectations, giving you a competitive edge.
 
                   </p>
                 </div>
@@ -364,7 +386,7 @@ const Home = () => {
                   Professional Development
                   </h3>
                   <p className="text-gray-500 text-sm">
-                  Beyond modeling techniques, we focus on grooming, etiquette, and effective communication. Ilahe equips you with the tools to present yourself professionally, whether on the runway or in a boardroom. Our training extends beyond the surface, fostering holistic growth.
+                  Beyond modeling techniques, we focus on grooming, etiquette, and effective communication. SR Portfolios equips you with the tools to present yourself professionally, whether on the runway or in a boardroom. Our training extends beyond the surface, fostering holistic growth.
 
                   </p>
                 </div>
@@ -397,7 +419,7 @@ const Home = () => {
                   Supportive Community
                   </h3>
                   <p className="text-gray-500 text-sm">
-                  Joining Ilahe means becoming part of a supportive community. Connect with fellow aspiring models and individuals who share your dreams and aspirations. Our network becomes your foundation, offering encouragement, mentorship, and lifelong friendships, enhancing your modeling journey.
+                  Joining SR Portfolios means becoming part of a supportive community. Connect with fellow aspiring models and individuals who share your dreams and aspirations. Our network becomes your foundation, offering encouragement, mentorship, and lifelong friendships, enhancing your modeling journey.
 
                   </p>
                 </div>
@@ -412,7 +434,7 @@ const Home = () => {
             Need Help ?
           </h2>
           <p className="cursor-default text-sm font-medium text-black mt-5 mb-10">
-          By choosing Ilahe Modeling and Finishing School, you invest in more than just a training program – you invest in a transformative experience that propels you towards a successful and fulfilling career in the world of modeling and finishing.
+          By choosing SR Portfolios Modeling and Finishing School, you invest in more than just a training program – you invest in a transformative experience that propels you towards a successful and fulfilling career in the world of modeling and finishing.
           </p>
 
           <div className="flex items-center justify-center gap-4 flex-wrap">
