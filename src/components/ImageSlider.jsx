@@ -6,9 +6,9 @@ const ImageSlider = () => {
   const images = [
     {
       url:GlobalData.Coverimages.ClassicPack,
-      title: 'Portfolios',
-      description: 'skills, confidence, professionalism',
-      button1: { text: 'Learn More', link: '/best-modeling-school-in-india' },
+      title: 'Portfolio Shoots in Hyderabad',
+      description: 'Best Photoshoot in hyderabad',
+      button1: { text: 'Learn More', link: '/contactus' },
       button2: { text: 'Contact us', link: 'https://api.whatsapp.com/send?phone=' },
     },
     {
@@ -22,8 +22,8 @@ const ImageSlider = () => {
       url:GlobalData.Coverimages.embark,
       title: 'Need More Details?',
       description: 'build trust , leave  impression, quality',
-      button1: { text: 'Email', link: 'mailto:admin@cyberspacedigital.in' },
-      button2: { text: 'Whatapp', link: 'https://api.whatsapp.com/send?phone=' },
+      button1: { text: 'Email', link: 'mailto:mail@srmedia.in' },
+      button2: { text: 'Whatapp', link: 'https://wa.me/+919885566589' },
     },
   ];
 

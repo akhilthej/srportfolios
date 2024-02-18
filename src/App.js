@@ -8,7 +8,6 @@ import NavbarMobile from './components/Navbar/NavbarMobile';
 
 const routes = [
   { path: '/', element: <Home /> },
-  { path: '/*', element: <Error404 /> },
   
   { path: '/best-portfolio-photoshoots-in-india', element: <Gallery_Portfolio /> },
 

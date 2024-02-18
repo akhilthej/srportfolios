@@ -50,6 +50,7 @@ const Home = () => {
 
       
         {/* Tagline */}
+        
         <section className="flex items-center my-10 justify-center  bg-white ">
           <div className="mx-auto max-w-[55rem]">
             <div className="text-center">
@@ -99,7 +100,7 @@ const Home = () => {
     <div className="flex justify-center items-center">
       <div class='rounded-xl shadow-xl' style={{ backgroundImage: `url(${GlobalData.Coverimages.ClassicPack})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%', paddingTop: '100%' }} className="shadow-lg mb-2 bg-gray-50 border-b border-gray-100"></div>
     </div>
-    <h3 className="mt-2 text-sm sm:text-2xl transform rounded border border-slate-200 px-12 py-2 font-medium bg-white text-black ">
+    <h3 className="mt-2 text-2xl font-bold transform rounded border border-slate-200 px-12 py-2  bg-white text-black ">
     CLASSIC PACK
     </h3>
     <p className="font-semibold text-sm text-white bg-orange-600 p-5 drop-shadow-lg rounded-lg">
@@ -114,7 +115,7 @@ INDOOR SHOOT<br/>
 <br/>
     </p>
     <Link to='/contactus'>
-      <button className="mt-2 text-sm sm:text-2xl transform rounded bg-orange-500 border border-slate-200 px-12 py-2 font-medium text-white hover:text-black transition-colors hover:bg-slate-50 mb-10">PRICE - 12500/-</button>
+      <button className="mt-2 text-2xl font-bold transform rounded bg-orange-500 border border-slate-200 px-12 py-2  text-white hover:text-black transition-colors hover:bg-slate-50 mb-10">PRICE - 12500/-</button>
     </Link>
   </div>
 
@@ -123,7 +124,7 @@ INDOOR SHOOT<br/>
     <div className=" flex justify-center items-center">
       <div class='rounded-xl shadow-xl' style={{ backgroundImage: `url(${GlobalData.Coverimages.PriumPack})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%', paddingTop: '100%' }} className="shadow-lg mb-2 bg-gray-50 border-b border-gray-100"></div>
     </div>
-    <h3 className="mt-2 text-sm sm:text-2xl transform rounded border border-slate-200 px-12 py-2 font-medium bg-white text-black ">
+    <h3 className="mt-2 text-2xl font-bold transform rounded border border-slate-200 px-12 py-2 bg-white text-black ">
     PREMIUM PACK
     </h3>
     <p className="font-semibold text-sm text-white bg-yellow-500 p-5 drop-shadow-lg rounded-lg">
@@ -144,7 +145,7 @@ INDOOR SHOOT<br/>
 1 CINEMATIC REEL
     </p>
     <Link to='/contactus'>
-    <button className="mt-2 text-sm sm:text-2xl transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-white hover:text-black transition-colors hover:bg-slate-50 mb-10">PRICE - 15000/-</button>
+    <button className="mt-2 text-2xl font-bold transform rounded bg-yellow-500 border border-slate-200 px-12 py-2  text-white hover:text-black transition-colors hover:bg-slate-50 mb-10">PRICE - 15000/-</button>
     </Link>
   </div>
 </div>
@@ -180,6 +181,52 @@ INDOOR SHOOT<br/>
           </div>
         </section>
      
+        <div className="flex flex-col justify-center items-center">
+     {/* First Row */}
+     <div className="text-center text-black">
+       <h2 className="cursor-default mt-8 upanddown font-extrabold text-transparent text-4xl bg-clip-text bg-gradient-to-r from-red-400 to-orange-600 leading-[3.5rem] tracking-tight">
+         Clients
+       </h2>
+       <p className=" text-sm opacity-50">
+         We care about our clients portfolio and looks.
+       </p>
+       Making you look good is out priority.
+     </div>
+
+     {/*Count*/}
+     <div className="flex flex-wrap items-center">
+       <div className="w-auto sm:mr-20">
+         <div className="column ">
+           {/* First Column */}
+           <div className="flex flex-col items-center p-1">
+             <p className="text-xs text-gray-500">Happy Clients</p>
+             <p className="cursor-default font-extrabold text-transparent text-2xl sm:text-4xl bg-clip-text bg-gradient-to-r from-red-400 to-orange-600">
+               100+
+             </p>
+           </div>
+         </div>
+       </div>
+
+       <div className="w-auto sm:mr-20 ">
+         <div className="column">
+           {/* Second Column */}
+           <div className="flex flex-col items-center p-1">
+             <p className="text-xs text-gray-500">
+               New Clients/month
+             </p>
+             <p className="cursor-default font-extrabold text-transparent text-2xl sm:text-4xl bg-clip-text bg-gradient-to-r from-red-400 to-orange-600">
+               10+
+             </p>
+           </div>
+         </div>
+       </div>
+
+      
+     </div>
+
+     
+   </div>
+
  {/*Who is it for? */}
  <section>
           <div className="cursor-default px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
@@ -187,7 +234,7 @@ INDOOR SHOOT<br/>
               <h2 className="font-extrabold text-transparent text-4xl md:text-5xl lg:text-8xl bg-clip-text bg-gradient-to-r from-red-500 to-orange-400 mt-3 text-[2.5rem] md:text-[3rem] lg:text-[3.5rem] leading-[3.5rem] tracking-tight text-black">
               Services
               </h2>
-              <p className=" cursor-default text-sm sm:text-xl text-gray-900 ">
+              <p className=" cursor-default text-sm sm:text-xl space-y-2 text-gray-900 ">
               <li>Portfolio shoot in Hyderabad</li>
               <li>Actor portfolio photography in Hyderabad</li>
               <li>Model portfolio shoot in Hyderabad </li>
@@ -225,15 +272,18 @@ INDOOR SHOOT<br/>
 
             <section className="text-center mx-auto mb-12 lg:px-20">
               <h2 className="pb-2 font-extrabold text-transparent text-2xl md:text-5xl lg:text-6xl bg-clip-text bg-gradient-to-r from-red-500 to-orange-400 mt-3 ">
-              Unlock Your Potential Online
+              Are you looking for best portfolio shoot in Hyderabad? 
               </h2>
               <p className="text-sm font-medium text-black">
-              Navigating the digital world is vital for modeling and finishing school, and SR Portfolios understands this. Our website development services ensure your online presence is not only visually appealing but also strategically optimized. Here's how joining SR Portfolios Modeling and Finishing School benefits you:
+              Contactus today for best model photography. Our Professional portfolio photographers will capture best model Photoshoot.
 
               </p>
             </section>
 
             {/* "Fixed Price Model" section */}
+            <h2 className="pb-2 text-center font-extrabold text-transparent text-2xl md:text-5xl lg:text-6xl bg-clip-text bg-gradient-to-r from-red-500 to-orange-400 mt-3 ">
+            Testimonies | Reviews
+              </h2>
             <div className="flex flex-wrap flex-row -mx-4 text-center">
               <div
                 className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/4 lg:px-6 wow fadeInUp"
@@ -256,10 +306,10 @@ INDOOR SHOOT<br/>
                     />
                   </div>
                   <h3 className="text-lg leading-normal mb-2 font-semibold text-black">
-                  Personalized Growth
+                  Sudha Rani
                   </h3>
                   <p className="text-gray-500 text-sm">
-                  At SR Portfolios, we tailor our training to your unique strengths, helping you refine your skills, boost your confidence, and carve your path in the modeling industry. Our personalized approach ensures you develop as an individual, both personally and professionally.
+                  Working with SR Studios was an absolute pleasure! Their attention to detail and creative vision truly brought out the best in every shot. The final images exceeded my expectations, and I couldn't be happier with the results. I highly recommend SR Studios for anyone looking for a talented and professional photographer."
 
                   </p>
                 </div>
@@ -289,10 +339,10 @@ INDOOR SHOOT<br/>
                     />
                   </div>
                   <h3 className="text-lg leading-normal mb-2 font-semibold text-black">
-                  Industry-Relevant Training
+                  Ravi Kumar
                   </h3>
                   <p className="text-gray-500 text-sm">
-                  SR Portfolios provides hands-on experience and industry insights, preparing you for the demands of the modeling and finishing world. Our expert trainers impart knowledge that aligns with current trends and industry expectations, giving you a competitive edge.
+                  I had the privilege of having SR Studios capture the special moments of my life, and I am beyond impressed with the results. The photos are not just images; they are beautiful stories frozen in time. SR Studios has a unique ability to capture emotions and turn them into breathtaking photographs. I highly recommend their services!
 
                   </p>
                 </div>
@@ -322,10 +372,10 @@ INDOOR SHOOT<br/>
                     />
                   </div>
                   <h3 className="text-lg leading-normal mb-2 font-semibold text-black">
-                  Professional Development
+                  Arun Varma
                   </h3>
                   <p className="text-gray-500 text-sm">
-                  Beyond modeling techniques, we focus on grooming, etiquette, and effective communication. SR Portfolios equips you with the tools to present yourself professionally, whether on the runway or in a boardroom. Our training extends beyond the surface, fostering holistic growth.
+                  I cannot thank SR Studios enough for the incredible work they did on our family photos. The entire experience, from the initial consultation to the final delivery of the images, was seamless. SR Studios has a remarkable talent for making everyone feel comfortable in front of the camera, resulting in natural and stunning photographs. I am grateful for the memories they've captured for us.
 
                   </p>
                 </div>
@@ -355,10 +405,10 @@ INDOOR SHOOT<br/>
                     />
                   </div>
                   <h3 className="text-lg leading-normal mb-2 font-semibold text-black">
-                  Supportive Community
+                  Swathi Reddy
                   </h3>
                   <p className="text-gray-500 text-sm">
-                  Joining SR Portfolios means becoming part of a supportive community. Connect with fellow aspiring models and individuals who share your dreams and aspirations. Our network becomes your foundation, offering encouragement, mentorship, and lifelong friendships, enhancing your modeling journey.
+                  I've had the pleasure of collaborating with SR Studios on multiple projects, and each time has been a fantastic experience. Their ability to understand and bring my vision to life through photography is unparalleled. The quality of their work is consistently outstanding, making SR Studios my go-to photographer for all my creative endeavors.
 
                   </p>
                 </div>

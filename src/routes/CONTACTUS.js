@@ -196,7 +196,7 @@ const ContactForm = () => {
                       />
                     </svg>
                     <div class="ml-4 text-sm sm:text-base tracking-wide font-semibold w-40">
-                    admin@srmedia
+                    admin@srmedia.in
                     </div>
                   </div>
                 </div>

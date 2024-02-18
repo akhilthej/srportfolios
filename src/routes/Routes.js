@@ -8,7 +8,7 @@ import ReturnPolicy from '../components/Documents/ReturnsPolicy.js';
 import ShippingandDelivery from '../components/Documents/ShippingandDelivery.js';
 import Disclaimer from '../components/Documents/Disclaimer.js';
 
-import Error404 from '../components/Tools/Error404.jsx';
+
 
 import Home from './HOME.js';
 
@@ -23,8 +23,7 @@ export {
 /*Fixed */
 
 Navbar,Footer,
-PrivacyPolicy,TermsnConditions,Disclaimer,ShippingandDelivery,
-Error404,Home,
+PrivacyPolicy,TermsnConditions,Disclaimer,ShippingandDelivery,Home,
 
 Aboutus,Contactus,
 ReturnPolicy,
