@@ -1,13 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.0aca7e3f.css",
-    "main.js": "/static/js/main.6fd3534b.js",
+    "main.js": "/static/js/main.1017f22d.js",
     "static/media/embark.jpg": "/static/media/embark.cf87dbf6a29bd86e409e.jpg",
+    "static/media/review1.png": "/static/media/review1.5290c9b711b0dbe09c6c.png",
     "static/media/Contact_us.webp": "/static/media/Contact_us.aafdf3d190729b1b705b.webp",
+    "static/media/review4.png": "/static/media/review4.795a6a47da7f5638b099.png",
+    "static/media/review3.png": "/static/media/review3.e5b9dc51c2c9607ba854.png",
+    "static/media/review2.png": "/static/media/review2.e0a23dd0695ff0692e7c.png",
     "static/media/image10.jpg": "/static/media/image10.834dbd8eec05076237cb.jpg",
     "static/media/image65.jpg": "/static/media/image65.a699f9ef1e7b063fc441.jpg",
     "static/media/image45.jpg": "/static/media/image45.2f410a917ab1ef5dbe79.jpg",
-    "static/media/PersonalGrowth.svg": "/static/media/PersonalGrowth.9668014f3c5f75db580d27b971159540.svg",
     "static/media/image34.jpg": "/static/media/image34.e9fab6ba97bad52f647c.jpg",
     "static/media/image24.jpg": "/static/media/image24.c69b32675fd10ce1cf65.jpg",
     "static/media/image18.jpg": "/static/media/image18.f2310b7d4ba02406814b.jpg",
@@ -29,7 +32,6 @@
     "static/media/image3.jpg": "/static/media/image3.6b08b99fb9879fc1ad74.jpg",
     "static/media/image55.jpg": "/static/media/image55.00773babf4d214098026.jpg",
     "static/media/image25.jpg": "/static/media/image25.1b722e70ceddbe423041.jpg",
-    "static/media/Training.svg": "/static/media/Training.2308bb1dd9e86e785c5a0fd67ba38e28.svg",
     "static/media/image30.jpg": "/static/media/image30.e914a76b223fa1c7e443.jpg",
     "static/media/image59.jpg": "/static/media/image59.dd568294811359e7bc75.jpg",
     "static/media/image64.jpg": "/static/media/image64.dd568294811359e7bc75.jpg",
@@ -67,7 +69,6 @@
     "static/media/classicpackage.jpeg": "/static/media/classicpackage.6301bf6ff092ebec90b5.jpeg",
     "static/media/image39.jpg": "/static/media/image39.b5418f3e3c83752951b9.jpg",
     "static/media/image5.jpg": "/static/media/image5.545ea110a7be4cc07e4a.jpg",
-    "static/media/SelfGromming.svg": "/static/media/SelfGromming.25961cf6e3e09dc954c0cbf14cf15b6c.svg",
     "static/media/image19.jpg": "/static/media/image19.de2b7867d1b78b94c356.jpg",
     "static/media/image53.jpg": "/static/media/image53.8ab161b3a481d3d1c0b4.jpg",
     "static/media/image49.jpg": "/static/media/image49.bc8e73b0a9e6ff2d4f19.jpg",
@@ -75,7 +76,6 @@
     "static/media/image9.jpg": "/static/media/image9.5536b98a3a5948ca535d.jpg",
     "static/media/WhatsApp_icon.png": "/static/media/WhatsApp_icon.31d4b1d27126bcc1f665.png",
     "static/media/image57.jpg": "/static/media/image57.7f9f1e45617569f61543.jpg",
-    "static/media/ProfessionalDevelopment.svg": "/static/media/ProfessionalDevelopment.1540c2b18cbacbf7e49e7a453f62eb11.svg",
     "static/media/LoaderLogo.png": "/static/media/LoaderLogo.b1aedc93418f6cec4821.png",
     "static/media/Navlogo.png": "/static/media/Navlogo.3e0beefdfa15e56ccbb9.png",
     "static/media/googlereview.png": "/static/media/googlereview.85d0946b65c74505d37a.png",
@@ -85,10 +85,10 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "main.0aca7e3f.css.map": "/static/css/main.0aca7e3f.css.map",
-    "main.6fd3534b.js.map": "/static/js/main.6fd3534b.js.map"
+    "main.1017f22d.js.map": "/static/js/main.1017f22d.js.map"
   },
   "entrypoints": [
     "static/css/main.0aca7e3f.css",
-    "static/js/main.6fd3534b.js"
+    "static/js/main.1017f22d.js"
   ]
 }
