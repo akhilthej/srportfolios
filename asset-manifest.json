@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.abf39ac1.css",
-    "main.js": "/static/js/main.f839164b.js",
+    "main.css": "/static/css/main.9e906dea.css",
+    "main.js": "/static/js/main.434b2f5b.js",
     "static/media/embark.jpg": "/static/media/embark.cf87dbf6a29bd86e409e.jpg",
     "static/media/Contact_us.webp": "/static/media/Contact_us.aafdf3d190729b1b705b.webp",
     "static/media/image10.jpg": "/static/media/image10.834dbd8eec05076237cb.jpg",
@@ -16,7 +16,7 @@
     "static/media/image28.jpg": "/static/media/image28.e8cc92a272f7455c884d.jpg",
     "static/media/image35.jpg": "/static/media/image35.8b54f04be2021b70ef7e.jpg",
     "static/media/image47.jpg": "/static/media/image47.30cd0ba4000b2cfbe569.jpg",
-    "static/media/modelingschoolserviceimage.jpeg": "/static/media/modelingschoolserviceimage.1df80041b8bc7a72b90a.jpeg",
+    "static/media/priumpack.jpeg": "/static/media/priumpack.1df80041b8bc7a72b90a.jpeg",
     "static/media/image21.jpg": "/static/media/image21.26c1136c24f493d977e6.jpg",
     "static/media/image20.jpg": "/static/media/image20.c11186de60af0987ada1.jpg",
     "static/media/image13.jpg": "/static/media/image13.20af37cb109f53237302.jpg",
@@ -64,6 +64,7 @@
     "static/media/image50.jpg": "/static/media/image50.38c888127db67dac8f72.jpg",
     "static/media/image41.jpg": "/static/media/image41.57ef0a9df1dc818baccc.jpg",
     "static/media/image58.jpg": "/static/media/image58.892ebea60470c44ad6a5.jpg",
+    "static/media/classicpackage.jpeg": "/static/media/classicpackage.6301bf6ff092ebec90b5.jpeg",
     "static/media/image39.jpg": "/static/media/image39.b5418f3e3c83752951b9.jpg",
     "static/media/image5.jpg": "/static/media/image5.545ea110a7be4cc07e4a.jpg",
     "static/media/SelfGromming.svg": "/static/media/SelfGromming.25961cf6e3e09dc954c0cbf14cf15b6c.svg",
@@ -72,23 +73,22 @@
     "static/media/image49.jpg": "/static/media/image49.bc8e73b0a9e6ff2d4f19.jpg",
     "static/media/image46.jpg": "/static/media/image46.cb138c65c18701e51fd6.jpg",
     "static/media/image9.jpg": "/static/media/image9.5536b98a3a5948ca535d.jpg",
+    "static/media/WhatsApp_icon.png": "/static/media/WhatsApp_icon.31d4b1d27126bcc1f665.png",
     "static/media/image57.jpg": "/static/media/image57.7f9f1e45617569f61543.jpg",
     "static/media/ProfessionalDevelopment.svg": "/static/media/ProfessionalDevelopment.1540c2b18cbacbf7e49e7a453f62eb11.svg",
     "static/media/LoaderLogo.png": "/static/media/LoaderLogo.b1aedc93418f6cec4821.png",
     "static/media/Navlogo.png": "/static/media/Navlogo.3e0beefdfa15e56ccbb9.png",
-    "static/media/application.jpeg": "/static/media/application.0d48a449c229acfc5404.jpeg",
     "static/media/googlereview.png": "/static/media/googlereview.85d0946b65c74505d37a.png",
-    "static/media/WhatsApp.webp": "/static/media/WhatsApp.f3b54735f5be9f9103e0.webp",
     "index.html": "/index.html",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.abf39ac1.css.map": "/static/css/main.abf39ac1.css.map",
-    "main.f839164b.js.map": "/static/js/main.f839164b.js.map"
+    "main.9e906dea.css.map": "/static/css/main.9e906dea.css.map",
+    "main.434b2f5b.js.map": "/static/js/main.434b2f5b.js.map"
   },
   "entrypoints": [
-    "static/css/main.abf39ac1.css",
-    "static/js/main.f839164b.js"
+    "static/css/main.9e906dea.css",
+    "static/js/main.434b2f5b.js"
   ]
 }
