@@ -62,7 +62,7 @@ const ImageSlider = () => {
               alt={`Slide ${index + 1}`}
               className="w-full h-full object-cover rounded-lg"
             />
-            <div className="absolute inset-0 flex flex-col items-center justify-center upanddown pb-8 font-extrabold text-white text-4xl md:text-7xl lg:text-8xl mt-3 ">
+            <div className="absolute text-center inset-0 flex flex-col items-center justify-center upanddown pb-8 font-extrabold text-white text-4xl md:text-7xl lg:text-8xl mt-3 ">
               {image.title}
               <span className="text-xs sm:text-lg text-white mt-2 text-center">{image.description}</span>
               <div className="mt-2">

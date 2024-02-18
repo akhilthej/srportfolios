@@ -8,7 +8,6 @@ import ImageSlider from "../components/ImageSlider";
 
 import { GlobalData } from "../components/data/GlobalData";
 
-import {SelfGromming,Training,PersonalGrowth,ProfessionalDevelopment,} from '../components/data/data'
 
 const Home = () => {
   return (
@@ -297,7 +296,7 @@ INDOOR SHOOT<br/>
                 <div className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
                   <div className="inline-block text-gray-900 mb-4">
                     <img
-                      src={SelfGromming}
+                      src={GlobalData.Reviewimages.Review1}
                       className="w-40 ml-auto"
                       alt="illustration"
                       loading="lazy"
@@ -330,7 +329,7 @@ INDOOR SHOOT<br/>
                 <div className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
                   <div className="inline-block text-gray-900 mb-4">
                     <img
-                      src={Training}
+                      src={GlobalData.Reviewimages.Review2}
                       className="w-40 ml-auto"
                       alt="illustration"
                       loading="lazy"
@@ -363,7 +362,7 @@ INDOOR SHOOT<br/>
                 <div className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
                   <div className="inline-block text-gray-900 mb-4">
                     <img
-                      src={PersonalGrowth}
+                      src={GlobalData.Reviewimages.Review3}
                       className="w-40 ml-auto"
                       alt="illustration"
                       loading="lazy"
@@ -396,7 +395,7 @@ INDOOR SHOOT<br/>
                 <div className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
                   <div className="inline-block text-gray-900 mb-4">
                     <img
-                      src={ProfessionalDevelopment}
+                      src={GlobalData.Reviewimages.Review4}
                       className="w-40 ml-auto"
                       alt="illustration"
                       loading="lazy"
