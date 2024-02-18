@@ -5,21 +5,21 @@ const ImageSlider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const images = [
     {
-      url:GlobalData.Coverimages.ModelingSchool,
+      url:GlobalData.Coverimages.ClassicPack,
       title: 'Portfolios',
       description: 'skills, confidence, professionalism',
       button1: { text: 'Learn More', link: '/best-modeling-school-in-india' },
       button2: { text: 'Contact us', link: 'https://api.whatsapp.com/send?phone=' },
     },
     {
-      url:GlobalData.Coverimages.Aboutus1,
+      url:GlobalData.Coverimages.PriumPack,
       title: 'About SR Media',
       description: 'selflove , empowerment, inspiration',
       button1: { text: 'Explore', link: '/aboutus' },
       button2: { text: 'Contact Us', link: 'https://api.whatsapp.com/send?phone=' },
     },
     {
-      url:GlobalData.Coverimages.MoreDetails,
+      url:GlobalData.Coverimages.embark,
       title: 'Need More Details?',
       description: 'build trust , leave  impression, quality',
       button1: { text: 'Email', link: 'mailto:admin@cyberspacedigital.in' },

@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 
 import {googlereview} from '../data/data.jsx';
 import footer_csd from '../Navbar/Navlogo.png';
-import WhatsApp from './WhatsApp.webp';
+import WhatsApp from './WhatsApp_icon.png';
 import { GlobalData } from '../data/GlobalData.js';
 
 const Footer = () => {
@@ -128,13 +128,13 @@ const Footer = () => {
           <p className="font-medium text-white">Services</p>
           <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
             
-            <a href="/best-modeling-school-in-india">
+            <a href="/contactus">
               {" "}
-              Modeiling School{" "}
+              Portfolio shoots{" "}
             </a>
-            <a  href="/best-Finishing-school-in-india">
+            <a  href="/contactus">
               {" "}
-              Finishing School{" "}
+              E -commerce shoots{" "}
             </a>
             
           </nav>

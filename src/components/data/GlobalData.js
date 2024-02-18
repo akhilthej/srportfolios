@@ -1,12 +1,8 @@
-import ModelingschoolEmpower from '../../assets/CoverImages/modelingschoolserviceimage.jpeg'
-import Application from '../../assets/CoverImages/application.jpeg'
 import embark from '../../assets/CoverImages/embark.jpg'
+import PriumPack from '../../assets/CoverImages/priumpack.jpeg'
+import ClassicPack from '../../assets/CoverImages/classicpackage.jpeg'
 
 import ContactusCover from '../../assets/CoverImages/Contact_us.webp'
-import ModelingSchool from '../../assets/CoverImages/modelingschool.png'
-import Aboutus1 from '../../assets/CoverImages/aboutus.png'
-import MoreDetails from '../../assets/CoverImages/moredetails.png'
-
 
 const GlobalData = {
     company: {
@@ -21,12 +17,13 @@ const GlobalData = {
     Coverimages: {
        ContactusCover:ContactusCover,
 
-        ModelingschoolEmpower:ModelingschoolEmpower,
-        Application:Application,
-        embark:embark,
-        ModelingSchool: ModelingSchool,
-        Aboutus1: Aboutus1,
-        MoreDetails: MoreDetails,
+
+       PriumPack:PriumPack,
+       ClassicPack:ClassicPack,
+       embark:embark,
+
+      
+        
 
 
     },

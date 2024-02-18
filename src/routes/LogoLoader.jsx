@@ -29,8 +29,8 @@ const LogoLoader = () => {
   };
 
   const logoStyle = {
-    maxWidth: '20%', /* Make the logo width 100% of its container */
-    maxHeight: '20%', /* Make the logo height 100% of its container */
+    maxWidth: '50%', /* Make the logo width 100% of its container */
+    maxHeight: '50%', /* Make the logo height 100% of its container */
   };
 
   // Ensure the loader is hidden when isLoading becomes false

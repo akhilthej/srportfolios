@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import Brand_slider from "../components/Brand_slider";
 
-import { HomeVideo } from "../components/data/data";
+
 import ImageSlider from "../components/ImageSlider";
 
 import { GlobalData } from "../components/data/GlobalData";
@@ -23,14 +23,14 @@ const Home = () => {
           <div class="mx-auto max-w-[55rem]">
             <div class="text-center">
               <null class="cursor-default text-sm sm:text-2xl font-extrabold leading-8 text-gray-900">
-                FASHION . STYLE . EXECUTIVE
+                Click . Pose . Post
               </null>
               <h1 class="cursor-default pb-0 sm:pb-5 upanddown font-extrabold text-transparent text-4xl md:text-7xl lg:text-8xl bg-clip-text bg-gradient-to-r from-red-500 to-orange-400 mt-3 leading-[3.5rem] tracking-tight">
                 SR Portfolios
               </h1>
 
               <p class="cursor-default text-sm sm:text-xl font-extrabold leading-8 text-gray-900">
-                Portfolio Photography
+                Are you looking for a Proffectional Photoshoot?
               </p>
             </div>
             <div class="mt-6 flex items-center justify-center gap-4 flex-wrap">
@@ -48,33 +48,17 @@ const Home = () => {
           </div>
         </section>
 
-        {/* Video 
-        <div className="flex justify-center items-center">
-          <video
-            className="rounded-lg"
-            poster=""
-            loop
-            width="80%"
-            height="auto"
-            autoPlay
-            controls
-            playsInline
-            preload="metadata" 
-          >
-            <source src={HomeVideo} type="video/mp4" />
-          </video>
-        </div>*/}
-
+      
         {/* Tagline */}
         <section className="flex items-center my-10 justify-center  bg-white ">
           <div className="mx-auto max-w-[55rem]">
             <div className="text-center">
               <p className="cursor-default text-sm sm:text-4xl font-extrabold  text-gray-900">
-              Polishing Dreams, Shaping Futures – Your Confidence, Our Commitment.
+              Portfolio Photoshoot in Hyderabad
               </p>
 
               <p className="cursor-default text-sm sm:text-xl pt-5  text-gray-900">
-              Empowering Lives, One Stride at a Time.
+              Portfolio photo shoot shoot is a photo designed to capture the subject in a variety of poses, backdrops and setting it can be for artist models, actors and corporate clients who need to show their professionalism of personal charm. model photography is a great way for an aspiring model or actor to gain invisibility the model. Photo shoot will show your skills. there are no rules like anyone or not allowed to take a portfolio shot. Anyone can take a portfolio, photo shoot you can showcase your capabilities.
               </p>
             </div>
             <div className="mt-6 flex items-center justify-center gap-4 flex-wrap"></div>
@@ -113,41 +97,41 @@ const Home = () => {
 <div className="flex flex-wrap justify-center -mx-4  text-center">
   <div className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/4 lg:px-16">
     <div className="flex justify-center items-center">
-      <div class='rounded-xl shadow-xl' style={{ backgroundImage: `url(${GlobalData.Coverimages.ModelingschoolEmpower})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%', paddingTop: '100%' }} className="shadow-lg mb-2 bg-gray-50 border-b border-gray-100"></div>
+      <div class='rounded-xl shadow-xl' style={{ backgroundImage: `url(${GlobalData.Coverimages.ClassicPack})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%', paddingTop: '100%' }} className="shadow-lg mb-2 bg-gray-50 border-b border-gray-100"></div>
     </div>
-    <h3 className="mt-2 text-xs sm:text-sm transform rounded border border-slate-200 px-12 py-2 font-medium bg-white text-black ">
+    <h3 className="mt-2 text-sm sm:text-2xl transform rounded border border-slate-200 px-12 py-2 font-medium bg-white text-black ">
     CLASSIC PACK
     </h3>
     <p className="font-semibold text-sm text-white bg-orange-600 p-5 drop-shadow-lg rounded-lg">
     
-PRICE - 12500/-<br/>
+
 3 HOUR SHOOT<br/>
 4 CHANGES OUTFITS<br/>
 20 EDITED PHOTOS<br/>
 ALL RAW PHOTOS<br/>
 MAKEUP AND HAIRSTYLE<br/>
 INDOOR SHOOT<br/>
+<br/>
     </p>
     <Link to='/contactus'>
-      <button className="mt-2 text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-white hover:text-black transition-colors hover:bg-slate-50 mb-10">Apply Now</button>
+      <button className="mt-2 text-sm sm:text-2xl transform rounded bg-orange-500 border border-slate-200 px-12 py-2 font-medium text-white hover:text-black transition-colors hover:bg-slate-50 mb-10">PRICE - 12500/-</button>
     </Link>
   </div>
 
   {/* "Finishing" section */}
   <div className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/4 lg:px-16">
     <div className=" flex justify-center items-center">
-      <div class='rounded-xl shadow-xl' style={{ backgroundImage: `url(${GlobalData.Coverimages.ModelingschoolEmpower})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%', paddingTop: '100%' }} className="shadow-lg mb-2 bg-gray-50 border-b border-gray-100"></div>
+      <div class='rounded-xl shadow-xl' style={{ backgroundImage: `url(${GlobalData.Coverimages.PriumPack})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%', paddingTop: '100%' }} className="shadow-lg mb-2 bg-gray-50 border-b border-gray-100"></div>
     </div>
-    <h3 className="mt-2 text-xs sm:text-sm transform rounded border border-slate-200 px-12 py-2 font-medium bg-white text-black ">
+    <h3 className="mt-2 text-sm sm:text-2xl transform rounded border border-slate-200 px-12 py-2 font-medium bg-white text-black ">
     PREMIUM PACK
     </h3>
     <p className="font-semibold text-sm text-white bg-yellow-500 p-5 drop-shadow-lg rounded-lg">
     
-PRICE - 15000<br/>
 
 4 HOUR SHOOT<br/>
 
-5CHANGES OUTFITS<br/>
+5 CHANGES OUTFITS<br/>
 
 25 EDITED PHOTOS<br/>
 
@@ -160,7 +144,7 @@ INDOOR SHOOT<br/>
 1 CINEMATIC REEL
     </p>
     <Link to='/contactus'>
-      <button className="mt-2 text-xs sm:text-sm transform rounded bg-orange-600 border border-slate-200 px-12 py-2 font-medium text-white hover:text-black transition-colors hover:bg-slate-50 mb-10">Apply Now</button>
+    <button className="mt-2 text-sm sm:text-2xl transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-white hover:text-black transition-colors hover:bg-slate-50 mb-10">PRICE - 15000/-</button>
     </Link>
   </div>
 </div>
@@ -180,17 +164,17 @@ INDOOR SHOOT<br/>
           <div className="cursor-default py-40 flex flex-col items-center justify-center bg-black/70">
             <div className="text-center">
               <h2 className="font-extrabold text-transparent text-4xl md:text-5xl lg:text-6xl bg-clip-text bg-red-400 tracking-tight ">
-              Embark on a journey of self-discovery with SR Portfolios.
+              Portfolio
               </h2>
             </div>
             <div className="text-center">
               <h2 className="font-extrabold text-transparent text-5xl md:text-5xl lg:text-5xl bg-clip-text bg-orange-600 tracking-tight ">
-              It's not just about style
+              Shoots
               </h2>
             </div>
             <div className="text-center">
               <h2 className="font-extrabold text-transparent text-4xl md:text-5xl lg:text-6xl bg-clip-text bg-red-400 tracking-tight ">
-              it's about unveiling your true self. Let us guide you as you travel the world of confidence, grace, and authenticity.
+              in Hyderabad
               </h2>
             </div>
           </div>
@@ -201,81 +185,36 @@ INDOOR SHOOT<br/>
           <div className="cursor-default px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
             <div className="max-w-screen-md mb-8 lg:mb-16">
               <h2 className="font-extrabold text-transparent text-4xl md:text-5xl lg:text-8xl bg-clip-text bg-gradient-to-r from-red-500 to-orange-400 mt-3 text-[2.5rem] md:text-[3rem] lg:text-[3.5rem] leading-[3.5rem] tracking-tight text-black">
-              Who is it for?
+              Services
               </h2>
               <p className=" cursor-default text-sm sm:text-xl text-gray-900 ">
-              <li>People seeking a professional and personal life balance</li>
-              <li>Professionals who wish to enhance their career life</li>
-              <li>Ladies looking for exposure in a different field</li>
-              <li>Amateurs want to develop a personal and professional image</li>
-              <li>For all ladies who wish to be empowered, bloom to their fullest potential, and have the secret ingredient to the life of their dreams.</li>
+              <li>Portfolio shoot in Hyderabad</li>
+              <li>Actor portfolio photography in Hyderabad</li>
+              <li>Model portfolio shoot in Hyderabad </li>
+              <li>Best portfolio photography in Hyderabad</li>
+              <li>Professional professional portfolio shoot in Hyderabad</li>
+              <li>Affordable portfolio shoot in Hyderabad</li>
+              <li>Portfolio shoot packages in Hyderabad</li>
+              <li>Top portfolio photographers in Hyderabad</li>
+              <li>Creative portfolio shoot in Hyderabad</li>
+              <li>Stylish portfolio shoot in Hyderabad</li>
+              <li>Fashion portfolio shoot in Hyderabad</li>
+              <li>Celebrity portfolio photography in Hyderabad</li> 
+              <li>Modelling portfolio shoot in Hyderabad</li>
+              <li>Bollywood portfolio photography in Hyderabad</li>
+              <li>Professional head shot photography in Hyderabad</li>
+              <li>Actor headshot photography in Hyderabad</li>
+              <li>Modelling headshot photography in Hyderabad</li>
+              <li>Creative portrait photography in Hyderabad</li>
+              <li>Cinematic portfolio shoot in Hyderabad</li>
+              <li>Glamour portfolio shoot in Hyderabad</li>  
               </p>
             </div>
           </div>
         </section>
 
 
-        {/*Explore */}
-        <section className="cursor-default px-6  mx-auto bg-black">
-          <section>
-            <div className="cursor-default container px-6  mx-auto bg-black">
-              <div className="lg:flex lg:items-center ">
-                <div className="w-full space-y-12 lg:w-1/2 ">
-                  <div>
-                    <h2 className="text-3xl font-semibold text-white capitalize lg:text-4xl ">
-                    APPLICATION GUIDELINES
-                    </h2>
-                    <div className="mt-2">
-                      <span className="inline-block w-40 h-1 rounded-full bg-red-500" />
-                      <span className="inline-block w-3 h-1 ml-1 rounded-full bg-red-500" />
-                      <span className="inline-block w-1 h-1 ml-1 rounded-full bg-red-500" />
-                    </div>
-                  </div>
-                  <div className="md:flex md:items-start md:-mx-4">
-                    <span className="inline-block p-2 text-white bg-red-500 rounded-xl md:mx-4  ">
-                      <svg
-                        xmlns="https://www.w3.org/2000/svg"
-                        className="w-6 h-6"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth={2}
-                          d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h20a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"
-                        />
-                      </svg>
-                    </span>
-                    <div className="mt-4 md:mx-4 md:mt-0">
-                      <h2 className="text-2xl font-semibold text-white capitalize ">
-                      <li>You do not need Professional Photographs to apply.</li>
-                      <li>No selfies , Please ask a friend to help you.</li>
-              <li>No sunglasses or hats.</li>
-              <li>No or minimal make-up and no filters.</li>
-              <li>Try to use natural light.</li>
-              <li>Photographs must be in color and in focus.</li>
-              <li>Please try to upload at least one full length and one close up picture.</li>
-              <p className="text-sm pt-5">Once you have made your application, we will do our best to get back to you within five working days. If you have not heard back from us, please call us and quote your full name and email address.</p>
-              <p className="text-sm">While your waiting to hear back,keep up to date with SR Portfolios by following us on social media.</p>
-                      </h2>
-                    </div>
-                  </div>
-                 
-                </div>
-                <div className=" lg:flex lg:items-center lg:w-1/2 lg:justify-center ">
-                  <img
-                    className="w-[28rem] h-[28rem] object-cover xl:w-[34rem] xl:h-[34rem] "
-                    src={GlobalData.Coverimages.Application}
-                    alt=""
-                  />
-                </div>
-              </div>
-            </div>
-          </section>
-        </section>
-
+       
         {/*Line of Engagement */}
         <section
           id="services"
