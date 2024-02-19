@@ -18,7 +18,7 @@ const GlobalData = {
       companyEmail: 'mail@srmedia.in',
       companyAddress: 'Dono: 8-2-269 /B/8D, Road No:2,Venkateswara nagar Aurora colony,Banjarahills, Hyderabad,Telangana - 500034',
       companyWhatsapp: 'https://wa.me/+919885566589',
-      companyGoogleMaps:'https://g.page/r/Cbdbq2SKZJyVEAI/review',
+      companyGoogleMaps:'https://g.page/r/Cci0AD_-b2q3EAI/review',
     },
     Coverimages: {
        ContactusCover:ContactusCover,

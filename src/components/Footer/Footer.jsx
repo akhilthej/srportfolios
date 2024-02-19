@@ -25,9 +25,9 @@ const Footer = () => {
     <div>
     <Link to ='/'><img src= {footer_csd} className="mr-5 h-10 sm:h-24 " alt="footer_csd" /></Link>
         <p className="max-w-xs mt-4 text-sm text-gray-600">
-        We are a web Developing & Designing company with a mission to help build there business online.
-        We accomplish this by continuously developing technology, giving expert assistance, and ensuring a flawless online website 
-       experience.<br />
+       Top Portfolio photographer in Hyderabad.  PhotoShoot is a photo designed to capture the subject in a variety of poses, backdrops and setting it can be for artist models, actors and corporate clients who need to show their professionalism of personal charm. model photography is a great way for an aspiring model or actor to gain invisibility the model. Photo shoot will show your skills. there are no rules like anyone or not allowed to take a portfolio shot. Anyone can take a portfolio, photo shoot you can showcase your capabilities.
+
+<br />
         </p>
        
         
