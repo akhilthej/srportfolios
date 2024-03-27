@@ -24,9 +24,10 @@ const Home = () => {
               <null class="cursor-default text-sm sm:text-2xl font-extrabold leading-8 text-gray-900">
                 Click . Pose . Post
               </null>
-              <h1 class="cursor-default pb-0 sm:pb-5 upanddown font-extrabold text-transparent text-4xl md:text-7xl lg:text-8xl bg-clip-text bg-gradient-to-r from-red-500 to-orange-400 mt-3 leading-[3.5rem] tracking-tight">
+              <title>Portfolio Photoshoot in Hyderabad | SR Portfolios</title>
+              <h2 class="cursor-default pb-0 sm:pb-5 upanddown font-extrabold text-transparent text-4xl md:text-7xl lg:text-8xl bg-clip-text bg-gradient-to-r from-red-500 to-orange-400 mt-3 leading-[3.5rem] tracking-tight">
                 SR Portfolios
-              </h1>
+              </h2>
 
               <p class="cursor-default text-sm sm:text-xl font-extrabold leading-8 text-gray-900">
                 Are you looking for a Proffectional Photoshoot?
@@ -53,12 +54,12 @@ const Home = () => {
         <section className="flex items-center my-10 justify-center  bg-white ">
           <div className="mx-auto max-w-[55rem]">
             <div className="text-center">
-              <p className="cursor-default text-sm sm:text-4xl font-extrabold  text-gray-900">
+              <h1 className="cursor-default text-sm sm:text-4xl font-extrabold  text-gray-900">
               Portfolio Photoshoot in Hyderabad
-              </p>
+              </h1>
 
               <p className="cursor-default text-sm sm:text-xl pt-5  text-gray-900">
-              Portfolio photo shoot shoot is a photo designed to capture the subject in a variety of poses, backdrops and setting it can be for artist models, actors and corporate clients who need to show their professionalism of personal charm. model photography is a great way for an aspiring model or actor to gain invisibility the model. Photo shoot will show your skills. there are no rules like anyone or not allowed to take a portfolio shot. Anyone can take a portfolio, photo shoot you can showcase your capabilities.
+              Discover the best portfolio photoshoot services in Hyderabad with SR Portfolios. We offer Portfolio photo shoot shoot is a photo designed to capture the subject in a variety of poses, backdrops and setting it can be for artist models, actors and corporate clients who need to show their professionalism of personal charm. model photography is a great way for an aspiring model or actor to gain invisibility the model. Photo shoot will show your skills. there are no rules like anyone or not allowed to take a portfolio shot. Anyone can take a portfolio, photo shoot you can showcase your capabilities.
               </p>
             </div>
             <div className="mt-6 flex items-center justify-center gap-4 flex-wrap"></div>
