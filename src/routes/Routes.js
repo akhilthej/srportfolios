@@ -15,7 +15,7 @@ import Home from './HOME.js';
 import Gallery_Portfolio from "./CustomPages/Gallery_Portfolio.jsx";
 
 import Aboutus from './Aboutus.js';
-import Contactus from './Contactus.js';
+import Contactus from './CONTACTUS.js';
 
 
 

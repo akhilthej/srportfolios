@@ -34,7 +34,7 @@ const Footer = () => {
 
         <div className="flex space-x-6 text-gray-600 pt-2">
           <a
-            href="https://www.facebook.com/profile.php?id=100087441512479"
+            href="/"
             target="_blank"
             rel="noreferrer"
           >
@@ -53,7 +53,7 @@ const Footer = () => {
             </svg>
           </a>
           <a
-            href="https://www.instagram.com/cyber.space.digital/"
+            href="/"
             target="_blank"
             rel="noreferrer"
           >
@@ -71,7 +71,7 @@ const Footer = () => {
             </svg>
           </a>
           <a 
-            href="https://twitter.com/CyberSD1995"
+            href="/"
             target="_blank"
             rel="noreferrer"
           >
@@ -86,7 +86,7 @@ const Footer = () => {
             </svg>
           </a>
           <a 
-            href="https://github.com/akhilthej"
+            href="/"
             target="_blank"
             rel="noreferrer"
           >
@@ -186,8 +186,7 @@ const Footer = () => {
       </div>
     </div>
 
-    <a href={GlobalData.company.companyGoogleMaps}> <img  class="h-10 hover:animate-pulse  max-w-full ml-auto mr-auto mt-5" src= {googlereview} alt="googlereview_icon" /></a>
- 
+  
     <div class="h-px my-8 border-0 bg-gray-700"/>
    <p id="copyright" class="cursor-default text-center text-xs text-white">© 2023-<span id="currentYear">2024</span> Reserved to SR Portfolios</p><br/>
    <a href="https://cyberspacedigital.in/"> <img  class="h-10 hover:animate-pulse  max-w-full ml-auto mr-auto mt-2" src= "https://cyberspacedigital.in/static/media/csdv2Logofooter.fd1b0a495973bc9e3a9d8b4c42fed61b.svg" alt="Cyberspacedigital.in" /></a>

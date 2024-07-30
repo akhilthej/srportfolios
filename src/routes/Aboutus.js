@@ -18,7 +18,7 @@ const Aboutus = () => {
      <section
   className="py-10 sm:py-48"
   style={{
-    backgroundImage: `url(${GlobalData.Coverimages.Aboutus1})`,
+    backgroundImage: `url(${GlobalData.Coverimages.ContactusCover})`,
     backgroundSize: "cover",
     backgroundPosition: "top",
   }}>
@@ -80,7 +80,7 @@ const Aboutus = () => {
        {/* WE BUILD */}
        <section
           style={{
-            backgroundImage:`url(${GlobalData.Coverimages.Aboutus1})`,
+            backgroundImage:`url(${GlobalData.Coverimages.ClassicPack})`,
             backgroundSize: "cover",
             backgroundPosition: "top",
           }}>
@@ -151,7 +151,7 @@ const Aboutus = () => {
     </div>
     <div className="lg:mt-4 lg:col-span-5 lg:flex rounded-lg">
       <p className="max-w-2xl mb-6 text-center">
-        was born. Its meaning is – The most beautiful, intelligent, smart, lovely woman in the world. Also means Goddess. All women are ILAHE – all women have the Divine Feminine in them.
+        was born. Its meaning is – The most beautiful, intelligent, smart, lovely woman in the world. Also means Goddess. All women are SP Portfolios – all women have the Divine Feminine in them.
       </p>
     </div>
   </div>
