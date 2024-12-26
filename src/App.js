@@ -1,6 +1,5 @@
 import React from "react";
 import xmlbuilder from 'xmlbuilder';
-
 import { Routes, Route, useLocation } from 'react-router-dom';
 import { Navbar, Footer, PrivacyPolicy, TermsnConditions, Disclaimer, ShippingandDelivery, ReturnPolicy, Error404, Home, Aboutus, Contactus,
   Gallery_Portfolio,
